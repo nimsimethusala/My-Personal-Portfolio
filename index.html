@@ -117,6 +117,48 @@
             left: 10vw;
         }
 
+        .hero-image {
+            position: absolute;
+            background: radial-gradient(
+                    circle at 50% 0,
+                    rgb(238 11 243 / 50%),
+                    rgb(238 11 243 / 30%),
+                    rgb(138 6 141 / 10%),
+                    rgb(138 6 141 / 0%)
+            );
+            border-radius: 100%;
+            width: 60vw;
+            height: 60vw;
+            top: 10vw;
+            right: -150px;
+        }
+
+        .hero-image>div:nth-child(2) {
+            background: radial-gradient(
+                    circle at 50% 0,
+                    rgb(255 0 173 / 40%),
+                    rgb(255 0 173 / 20%),
+                    rgb(138 6 141 / 10%),
+                    rgb(138 6 141 / 0%)
+            );
+            border-radius: 100%;
+            width: 50vw;
+            height: 50vw;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .hero-image>div:last-child>img {
+            width: 60vw;
+            height: 60vw;
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+        }
+
     </style>
 </head>
 <body>
@@ -153,6 +195,15 @@
                 <li><i class="fa-brands fa-telegram"></i></li>
                 <li><i class="fa-brands fa-facebook-messenger"></i></li>
             </ul>
+        </div>
+    </section>
+
+    <!-- ========== Image Section =========== -->
+    <section class="hero-image">
+        <div></div>
+        <div></div>
+        <div>
+            <img src="assets/images/nimsi.png">
         </div>
     </section>
 </main>
