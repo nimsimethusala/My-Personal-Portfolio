@@ -7,19 +7,56 @@
     <meta name="author" content="ijse">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nimsi Methusala</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+
+        body {
+            background: #06011d;
+            overflow-x: hidden;
+        }
+
+        header {
+            width: 100vw;
+            height: 7vw;
+            background: rgb(6,1,29);
+            background: linear-gradient(0deg, rgba(6,1,29,0.1293767507002801) 0%, rgba(6,1,29,1) 29%, rgba(6,1,29,1) 56%, rgba(6,1,29,1) 100%);
+            position: fixed;
+            z-index: 50;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        header>nav>ul {
+            list-style: none;
+        }
+
+        header>nav>ul>li {
+            display: inline;
+            padding-right: 2vw;
+            font-size: 1.5vw;
+            font-weight: bold;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
 <!-- ******************** Header Section *****************-->
 <header>
     <nav>
-        <a href="">Home</a>
-        <a href="">Education</a>
-        <a href="">Experience</a>
-        <a href="">Skills</a>
-        <a href="">Works</a>
-        <a href="">Gallery</a>
-        <a href="">Contact</a>
-        <a href="">About me</a>
+        <ul>
+            <li><a href="">Home</a> </li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About me</a></li>
+        </ul>
     </nav>
 </header>
 
