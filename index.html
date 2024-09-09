@@ -10,6 +10,13 @@
 
     <link rel="stylesheet" href="assets/normalize.css">
 
+    <!-- ========== Google Font ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
 
         body {
@@ -41,6 +48,75 @@
             color: white;
         }
 
+        .hero-content>h1:nth-child(1) {
+            font-family: "Merriweather", serif;
+            background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ee0bf3, #ff00ad);/*#ee0bf3, #f407dc*/
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 7vw;
+            font-style: normal;
+            text-align: center;
+            margin-top: 0;
+            padding-top: 200px;
+            position: absolute;
+            left: 10vw;
+        }
+
+        .hero-content>h1:nth-child(2) {
+            font-family: "Merriweather", serif;
+            background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ee0bf3, #ff00ad);/*#fb03bf, #ff00ad*/
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 7vw;
+            font-style: normal;
+            text-align: center;
+            margin-top: 0;
+            padding-top: 360px;
+            position: absolute;
+            left: 10vw;
+        }
+
+        .hero-content>h2 {
+            color: #ffddf4;
+            position: absolute;
+            top: 480px;
+            left: 155px;
+        }
+
+        .hero-content>.hero-icon {
+            width: 25vw;
+            height: 2vw;
+            position: absolute;
+            top: 42vw;
+            left: 10vw;
+        }
+
+        .hero-content>.hero-icon>ul {
+            list-style: none;
+            margin-top: 0;
+            padding-left: 0;
+        }
+
+        .hero-content>.hero-icon>ul>li {
+            display: inline;
+            padding-right: 30px;
+            color: #ff00ad;
+            font-size: 2vw;
+        }
+
+        .hero-content>input {
+            width: 250px;
+            height: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 50px;
+            position: absolute;
+            top: 36vw;
+            left: 10vw;
+        }
+
     </style>
 </head>
 <body>
@@ -61,19 +137,24 @@
 </header>
 
 <!-- ******************** Hero Section *****************-->
-<main>
-        <!--******** Text Section ********-->
-        <div>
-            <h1>Nimsi</h1>
-            <h1>Methusala</h1>
-            <h6>University student at IJSE</h6>
-            <input type="button" value="Download CV">
+<main class="hero">
+    <!-- ========== Content Section =========== -->
+    <section class="hero-content">
+        <h1>Nimsi</h1>
+        <h1>Methusala</h1>
+        <h2>University Student at IJSE</h2>
+        <input type="button" value="Download CV">
+        <div class="hero-icon">
+            <ul>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-solid fa-envelope"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-telegram"></i></li>
+                <li><i class="fa-brands fa-facebook-messenger"></i></li>
+            </ul>
         </div>
-
-        <!--******** Image Section ********-->
-        <div>
-            <img src="assets/images/nimsi.png" title="Nimsi" alt="Nimsi" width="400">
-        </div>
+    </section>
 </main>
 
 <!-- ******************** Education Section *****************-->
