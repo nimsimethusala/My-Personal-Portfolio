@@ -6,7 +6,7 @@
     <meta name="keywords" content="java, html, css, js, go, react, angular">
     <meta name="author" content="ijse">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nimsi Methusala</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="assets/normalize.css">
 
@@ -15,9 +15,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
+    <!-- ========== Icons ========== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- ========== AOS Animation ========== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
 
         body {
             background: #06011d;
@@ -48,76 +61,80 @@
             color: white;
         }
 
-        .hero-content>h1:nth-child(1) {
+        .hero {
+            width: 100vw;
+            height: 100vh;
+            /*border: 5px solid white;*/
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .hero>.hero-content {
+            width: 40vw;
+            height: 500px;
+            border: 2px solid white;
+            position: relative;
+            top: 23vh;
+            left: 10vw;
+            /*margin-top: 250px;
+            margin-left: 10vw;*/
+            grid-column: 1/2;
+        }
+
+        .hero>.hero-content>h1 {
             font-family: "Merriweather", serif;
-            background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ee0bf3, #ff00ad);/*#ee0bf3, #f407dc*/
+            background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ff00ad);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 900;
             font-size: 7vw;
             font-style: normal;
-            text-align: center;
-            margin-top: 0;
-            padding-top: 200px;
-            position: absolute;
-            left: 10vw;
+            text-align: left;
+            margin: 0;
         }
 
-        .hero-content>h1:nth-child(2) {
-            font-family: "Merriweather", serif;
-            background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ee0bf3, #ff00ad);/*#fb03bf, #ff00ad*/
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 900;
-            font-size: 7vw;
-            font-style: normal;
-            text-align: center;
-            margin-top: 0;
-            padding-top: 360px;
-            position: absolute;
-            left: 10vw;
-        }
-
-        .hero-content>h2 {
+        .hero>.hero-content>h2 {
+            margin-top: 5px;
             color: #ffddf4;
-            position: absolute;
-            top: 480px;
-            left: 155px;
+            font-size: 2vw;
         }
 
-        .hero-content>.hero-icon {
-            width: 25vw;
-            height: 2vw;
-            position: absolute;
-            top: 42vw;
-            left: 10vw;
+        .hero>.hero-content>input {
+            width: 15vw;
+            height: 50px;
+            font-size: 1.8vw;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-top: 20px;
         }
 
-        .hero-content>.hero-icon>ul {
+        .hero>.hero-content>.hero-icon>ul {
             list-style: none;
-            margin-top: 0;
             padding-left: 0;
+            margin-top: 30px;
         }
 
-        .hero-content>.hero-icon>ul>li {
+        .hero>.hero-content>.hero-icon>ul>li {
             display: inline;
             padding-right: 30px;
             color: #ff00ad;
             font-size: 2vw;
         }
 
-        .hero-content>input {
-            width: 250px;
-            height: 50px;
-            font-size: 30px;
-            font-weight: bold;
-            border-radius: 50px;
-            position: absolute;
-            top: 36vw;
-            left: 10vw;
+        .hero>.hero-image {
+            width: 40vw;
+            height: 40vw;
+            border: 2px solid white;
+            position: relative;
+            top: 7vw;
+            grid-column: 2/3;
         }
 
-        .hero-image {
+        .hero>.hero-image>.circle1 {
+            width: 40vw;
+            height: 40vw;
+            border-radius: 100%;
             position: absolute;
             background: radial-gradient(
                     circle at 50% 0,
@@ -126,14 +143,12 @@
                     rgb(138 6 141 / 10%),
                     rgb(138 6 141 / 0%)
             );
-            border-radius: 100%;
-            width: 60vw;
-            height: 60vw;
-            top: 10vw;
-            right: -150px;
         }
 
-        .hero-image>div:nth-child(2) {
+        .hero>.hero-image>.circle1>.circle2 {
+            width: 30vw;
+            height: 30vw;
+            border-radius: 100%;
             background: radial-gradient(
                     circle at 50% 0,
                     rgb(255 0 173 / 40%),
@@ -141,23 +156,124 @@
                     rgb(138 6 141 / 10%),
                     rgb(138 6 141 / 0%)
             );
-            border-radius: 100%;
-            width: 50vw;
-            height: 50vw;
             position: absolute;
-            right: 0;
             left: 0;
+            right: 0;
             bottom: 0;
             margin: auto;
         }
 
-        .hero-image>div:last-child>img {
-            width: 60vw;
-            height: 60vw;
+        .hero>.hero-image>.circle1>div>img {
+            width: 40vw;
+            height: 40vw;
             position: absolute;
-            bottom: 50px;
+            left: 0;
             right: 0;
+            bottom: 2vw;
+            margin: auto;
         }
+
+        .education {
+            width: 100vw;
+            height: 100vh;
+            border: 5px solid white;
+            position: relative;
+        }
+
+        .education>h1 {
+            font-family: Arial, sans-serif;
+            color: #ee0bf3;
+            font-size: 3vw;
+            position: relative;
+            top: 8vh;
+            left: 10vw;
+        }
+
+        .education-section {
+            position: relative;
+            top: 20vh;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            justify-items: center;
+        }
+
+        .education-card {
+            background-color: #1E1E2F;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .education-card:nth-child(1) {
+            grid-column: 2/3;
+        }
+
+        .education-card:nth-child(2) {
+            grid-column: 4/5;
+        }
+
+        .education-card:nth-child(3) {
+            grid-column: 6/7;
+        }
+
+        .education-card:hover {
+            transform: scale(1.05);
+        }
+
+        .education-card>img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .education-card>h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .education-card>p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #ccc;
+        }
+
+        @media all and (max-width: 1024px) and (min-width: 768px){
+            .hero>.hero-content {
+                top: 20vh;
+            }
+
+            .hero>.hero-content>.hero-icon>ul {
+                margin-top: 25px;
+            }
+
+            .education-card {
+                width: 150px;
+            }
+        }
+
+        @media all and (max-width: 768px) and (min-width: 642px){
+            .hero>.hero-content{
+                width: 40vw;
+            }
+
+            .hero>.hero-content {
+                top: 15vh;
+            }
+
+            .hero>.hero-content>.hero-icon>ul {
+                margin-top: 25px;
+            }
+        }
+
+        @media all and (max-width: 642px) and (min-width: 425px) {}
+
+        @media all and (max-width: 425px) and (min-width: 375px) {}
+
+        @media all and (max-width: 375px) and (min-width: 320px) {}
 
     </style>
 </head>
@@ -200,37 +316,35 @@
 
     <!-- ========== Image Section =========== -->
     <section class="hero-image">
-        <div></div>
-        <div></div>
-        <div>
-            <img src="assets/images/nimsi.png">
+        <div class="circle1">
+            <div class="circle2"></div>
+            <div>
+                <img src="assets/images/nimsi.png">
+            </div>
         </div>
     </section>
 </main>
 
 <!-- ******************** Education Section *****************-->
-<main>
-    <h4>Education</h4>
-    <section>
-        <div>
-            <img src="assets/images/education.png" title="Primary Education" alt="Primary Education" width="100">
-            <h6>Primary Education - 2013</h6>
-            <h6>Sinhala Medium</h6>
-            <h6>Good Shepherd Convant</h6>
-        </div>
+<main class="education">
+    <h1>Education</h1>
 
-        <div>
-            <img src="assets/images/education.png" title="Primary Education" alt="Primary Education" width="100">
-            <h6>Ordinary Level - 2019</h6>
-            <h6>Sinhala Medium</h6>
-            <h6>Good Shepherd Convant</h6>
+    <section class="education-section">
+        <!--160,235-->
+        <div class="education-card" data-aos="flip-left">
+            <img src="assets/images/education.png" alt="Graduation Hat">
+            <h2>Primary Education - 2013</h2>
+            <p>Sinhala Medium<br>Good Shepherd Convent Panadura</p>
         </div>
-
-        <div>
-            <img src="assets/images/education.png" title="Primary Education" alt="Primary Education" width="100">
-            <h6>Advanced Level - 2022</h6>
-            <h6>Sinhala Medium</h6>
-            <h6>Good Shepherd Convant</h6>
+        <div class="education-card" data-aos="flip-left">
+            <img src="assets/images/education.png" alt="Graduation Hat">
+            <h2>Ordinary Level - 2019</h2>
+            <p>Sinhala Medium<br>Good Shepherd Convent Panadura</p>
+        </div>
+        <div class="education-card" data-aos="flip-left">
+            <img src="assets/images/education.png" alt="Graduation Hat">
+            <h2>Advanced Level - 2022</h2>
+            <p>Sinhala Medium<br>Good Shepherd Convent Panadura</p>
         </div>
     </section>
 </main>
