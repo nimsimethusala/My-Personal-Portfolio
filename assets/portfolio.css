@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #06011d;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    /*background: rgb(6,1,29);
+    background: linear-gradient(0deg, rgba(6,1,29,0.1293767507002801) 0%, rgba(6,1,29,1) 29%, rgba(6,1,29,1) 56%, rgba(6,1,29,1) 100%);*/
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+header>nav>ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+header>nav>ul>li {
+    display: inline;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: blue;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    /*border: 5px solid white;*/
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero>.hero-content {
+    width: 550px;
+    height: 530px;
+    border: 2px solid white;
+    position: relative;
+    top: 150px;
+    left: 280px;
+    grid-column: 1/2;
+}
+
+.hero>.hero-content>h1 {
+    font-family: "Merriweather", serif;
+    background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ff00ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+    z-index: 20;
+}
+
+.hero>.hero-content>h2 {
+    margin-top: 5px;
+    color: #ffddf4;
+    font-size: 30px;
+}
+
+.hero>.hero-content>input {
+    width: 200px;
+    height: 50px;
+    font-size: 1.8vw;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.hero>.hero-content>.hero-icon>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.hero>.hero-content>.hero-icon>ul>li {
+    display: inline;
+    padding-right: 30px;
+    color: #ff00ad;
+    font-size: 30px;
+}
+
+.hero>.hero-image {
+    width: 530px;
+    height: 530px;
+    border: 2px solid white;
+    position: relative;
+    top: 80px;
+    grid-column: 2/3;
+}
+
+.hero>.hero-image>.circle1 {
+    /*width: 40vw;
+    height: 40vw;*/
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    position: absolute;
+    background: radial-gradient(
+            circle at 50% 0,
+            rgb(238 11 243 / 50%),
+            rgb(238 11 243 / 30%),
+            rgb(138 6 141 / 10%),
+            rgb(138 6 141 / 0%)
+    );
+}
+
+.hero>.hero-image>.circle1>.circle2 {
+    /*width: 30vw;
+    height: 30vw;*/
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    background: radial-gradient(
+            circle at 50% 0,
+            rgb(255 0 173 / 40%),
+            rgb(255 0 173 / 20%),
+            rgb(138 6 141 / 10%),
+            rgb(138 6 141 / 0%)
+    );
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.hero>.hero-image>.circle1>div>img {
+    /*width: 40vw;
+    height: 40vw;*/
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
