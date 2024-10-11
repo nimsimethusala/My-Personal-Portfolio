@@ -151,3 +151,71 @@ header>nav>ul>li {
     bottom: 10px;
     margin: auto;
 }
+
+.education {
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid white;
+    position: relative;
+}
+
+.education>h1 {
+    font-family: Arial, sans-serif;
+    color: #ee0bf3;
+    font-size: 50px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.education-section {
+    position: relative;
+    top: 180px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+.education-card {
+    background-color: #1E1E2F;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.education-card:nth-child(1) {
+    grid-column: 2/3;
+}
+
+.education-card:nth-child(2) {
+    grid-column: 4/5;
+}
+
+.education-card:nth-child(3) {
+    grid-column: 6/7;
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+
+.education-card>img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.education-card>h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.education-card>p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
