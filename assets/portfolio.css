@@ -545,3 +545,31 @@ input, textarea {
 .about-content>.lable-content>.label>.label1 {
     width: 80px;
 }
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>section>ul {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+footer>section>ul>li {
+    display: inline-flex;
+    margin-right: 100px;
+}
+
+footer>section>ul>li>img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
