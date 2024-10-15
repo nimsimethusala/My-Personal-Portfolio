@@ -436,3 +436,55 @@ header>nav>ul>li>a{
 .gallery-section>div>img:hover {
     transform: scale(1.05);
 }
+
+.contact {
+    margin-top: 130px;
+}
+
+.contact-section {
+    margin-top: 100px;
+    margin-left: 420px;
+}
+
+.contact-section>form>.name-section {
+    width: fit-content;
+    height: fit-content;
+    /*border: 2px solid red;*/
+    display: flex;
+    gap: 100px;
+}
+
+label {
+    color: white;
+}
+
+.contact-section>form>.name-section>.name {
+    width: fit-content;
+    height: fit-content;
+    /*border: 2px solid white;*/
+}
+
+.contact-section>form>.email>input {
+    margin-top: 15px;
+    width: 710px;
+    height: 30px;
+}
+
+.contact-section>form>.message>textarea {
+    margin-top: 15px;
+    width: 710px;
+    height: 130px;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #888;
+    color: #fff;
+}
+
+.contact-section>form>button {
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
