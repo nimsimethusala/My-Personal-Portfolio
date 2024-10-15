@@ -10,10 +10,10 @@ body {
 
 header {
     width: 100%;
-    height: 50px;
-    /*background: rgb(6,1,29);
-    background: linear-gradient(0deg, rgba(6,1,29,0.1293767507002801) 0%, rgba(6,1,29,1) 29%, rgba(6,1,29,1) 56%, rgba(6,1,29,1) 100%);*/
-    background: white;
+    height: 80px;
+    background: rgb(6,1,29);
+    background: linear-gradient(0deg, rgba(6,1,29,0.1293767507002801) 0%, rgba(6,1,29,1) 29%, rgba(6,1,29,1) 56%, rgba(6,1,29,1) 100%);
+    /*background: white;*/
     position: fixed;
     top: 0;
     z-index: 50;
@@ -24,15 +24,27 @@ header {
 
 header>nav>ul {
     list-style: none;
-    text-decoration: none;
 }
 
 header>nav>ul>li {
     display: inline;
     padding-right: 2vw;
-    font-size: 1.5vw;
+    font-size: 25px;
     font-weight: bold;
-    color: blue;
+    /*color: white;*/
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.topics {
+    font-family: Arial, sans-serif;
+    color: #ee0bf3;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 .hero {
