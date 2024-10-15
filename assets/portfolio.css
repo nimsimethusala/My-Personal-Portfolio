@@ -47,26 +47,32 @@ header>nav>ul>li>a{
     margin-left: 100px;
 }
 
-.hero {
-    /*width: 100vw;
-    height: 100vh;
-    border: 5px solid white;
-    position: relative;*/
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.hero>.hero-container {
+    width: 1200px;
+    /*height: 600px;*/
+    /*border: 2px solid white;*/
+    margin-top: 100px;
+    margin-left: 170px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    /*grid-template-columns: repeat(2, 1fr);*/
 }
 
-.hero>.hero-content {
-    width: 550px;
-    height: 530px;
-    border: 2px solid white;
-    position: relative;
-    top: 150px;
-    left: 200px;
-    grid-column: 1/2;
+/*.hero>.hero-container>div:nth-child(1) {
+    !*width: 600px;*!
+    !*height: 600px;*!
+    !*border: 2px solid white;*!
+}*/
+
+.hero>.hero-container>div:nth-child(1)>.myName {
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
-.hero>.hero-content>h1 {
+.hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
     font-family: "Merriweather", serif;
     background: -webkit-linear-gradient(#ee0bf3, #ee0bf3, #ff00ad);
     -webkit-background-clip: text;
@@ -76,53 +82,49 @@ header>nav>ul>li>a{
     font-style: normal;
     text-align: left;
     margin: 0;
-    z-index: 20;
 }
 
-.hero>.hero-content>h2 {
-    margin-top: 5px;
+.hero>.hero-container>div:nth-child(1)>h2 {
+    margin-top: 20px;
+    margin-left: 70px;
     color: #ffddf4;
     font-size: 30px;
 }
 
-.hero>.hero-content>input {
-    width: 200px;
-    height: 50px;
-    font-size: 1.8vw;
-    font-weight: bold;
-    border-radius: 15px;
-    margin-top: 20px;
-}
-
-.hero>.hero-content>.hero-icon>ul {
-    list-style: none;
-    padding-left: 0;
+.hero>.hero-container>div:nth-child(1)>button {
     margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+    padding: 10px;
 }
 
-.hero>.hero-content>.hero-icon>ul>li {
+.hero>.hero-container>div:nth-child(1)>.hero-icon>ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.hero>.hero-container>div:nth-child(1)>.hero-icon>ul>li {
     display: inline;
     padding-right: 30px;
     color: #ff00ad;
-    font-size: 30px;
+    font-size: 33px;
 }
 
-.hero>.hero-image {
-    width: 530px;
-    height: 530px;
-    border: 2px solid white;
-    position: relative;
-    top: 80px;
-    grid-column: 2/3;
-}
+/*.hero>.hero-container>div:nth-child(2) {
+    width: 600px;
+    !*min-height: 600px;*!
+    !*border: 2px solid white;*!
+}*/
 
-.hero>.hero-image>.circle1 {
-    /*width: 40vw;
-    height: 40vw;*/
-    width: 650px;
-    height: 650px;
+.hero>.hero-container>div:nth-child(2)>.circle1 {
+    width: 600px;
+    /*height: 600px;*/
     border-radius: 100%;
-    position: absolute;
+    /*position: absolute;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: radial-gradient(
             circle at 50% 0,
             rgb(238 11 243 / 50%),
@@ -132,11 +134,12 @@ header>nav>ul>li>a{
     );
 }
 
-.hero>.hero-image>.circle1>.circle2 {
-    /*width: 30vw;
-    height: 30vw;*/
-    width: 550px;
-    height: 550px;
+.hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
+    width: 500px;
+    /*height: 500px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
     background: radial-gradient(
             circle at 50% 0,
@@ -145,23 +148,27 @@ header>nav>ul>li>a{
             rgb(138 6 141 / 10%),
             rgb(138 6 141 / 0%)
     );
-    position: absolute;
+    /*position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
+    margin: auto;*/
 }
 
-.hero>.hero-image>.circle1>div>img {
-    /*width: 40vw;
-    height: 40vw;*/
-    width: 650px;
-    height: 650px;
-    position: absolute;
+.hero>.hero-container>div:nth-child(2)>.circle1>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero>.hero-container>div:nth-child(2)>.circle1>div>img {
+    width: 620px;
+    height: auto;
+    /*position: absolute;
     left: 0;
     right: 0;
     bottom: 10px;
-    margin: auto;
+    margin: auto;*/
 }
 
 /*.education {
