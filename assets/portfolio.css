@@ -599,6 +599,10 @@ footer>section>ul>li>img {
         text-align: center;
     }*/
 
+    .topics {
+        font-size: 100px;
+    }
+
     .education>section {
         margin-left: 100px;
     }
@@ -612,6 +616,10 @@ footer>section>ul>li>img {
         align-items: center;
     }*/
 
+    .topics {
+        font-size: 100px;
+    }
+
     .education>section {
         margin-left: 100px;
     }
@@ -624,6 +632,10 @@ footer>section>ul>li>img {
         justify-content: center;
         align-items: center;
     }*/
+
+    .topics {
+        font-size: 100px;
+    }
 
     .education>section {
         margin-left: 100px;
