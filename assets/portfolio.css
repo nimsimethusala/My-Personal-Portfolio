@@ -598,6 +598,10 @@ footer>section>ul>li>img {
     .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
         text-align: center;
     }*/
+
+    .education>section {
+        margin-left: 100px;
+    }
 }
 
 @media all and (max-width: 375px) and (min-width: 320px){
@@ -607,6 +611,10 @@ footer>section>ul>li>img {
         justify-content: center;
         align-items: center;
     }*/
+
+    .education>section {
+        margin-left: 100px;
+    }
 }
 
 @media all and (max-width: 325px){
@@ -616,4 +624,8 @@ footer>section>ul>li>img {
         justify-content: center;
         align-items: center;
     }*/
+
+    .education>section {
+        margin-left: 100px;
+    }
 }
