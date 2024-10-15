@@ -400,3 +400,39 @@ header>nav>ul>li>a{
 .assignment>section>h2 {
     font-size: 18px;
 }
+
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery-section {
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.gallery-section>div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 400px;
+    padding: 2rem;
+}
+
+.gallery-section>div:nth-child(1) {
+    gap: 30px;
+}
+
+.gallery-section>div>img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 15px 4px 18px -5px rgba(0, 0, 0, 0.68);
+    transition: transform 0.5s ease-in-out;
+    background-size: cover;
+}
+
+.gallery-section>div>img:hover {
+    transform: scale(1.05);
+}
