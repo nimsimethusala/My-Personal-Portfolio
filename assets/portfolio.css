@@ -488,3 +488,60 @@ input, textarea {
     height: 30px;
     margin-top: 50px;
 }
+
+.about {
+    margin-top: 200px;
+}
+
+.about>section {
+    width: 1400px;
+    height: 450px;
+    margin-left: 60px;
+    /*border: 2px solid white;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-image {
+    width: 350px;
+    height: 400px;
+    margin-left: 200px;
+    border: 6px solid #ff00ad;
+    grid-column: 1/2;
+}
+
+.about-image>img {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.about-content {
+    grid-column: 2/2;
+    margin-left: 100px;
+}
+
+.about-content>.lable-content>.label>label {
+    font-size: 20px;
+}
+
+.about-content>h1 {
+    font-family: Arial, sans-serif;
+    color: #ee0bf3;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.about-content>.lable-content {
+    margin-top: 50px;
+}
+
+.about-content>.lable-content>.label {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content>.lable-content>.label>.label1 {
+    width: 80px;
+}
