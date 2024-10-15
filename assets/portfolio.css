@@ -279,3 +279,20 @@ header>nav>ul>li>a{
     width: 70px;
     height: 70px;
 }
+
+.work {
+    margin-top: 200px;
+}
+
+.work>hr {
+    border: 1px solid #fda117;
+}
+
+.work>h1 {
+    font-family: Arial, sans-serif;
+    color: #fda117;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
