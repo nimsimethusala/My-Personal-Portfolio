@@ -36,10 +36,10 @@ header>nav>ul>li {
 }
 
 .hero {
-    width: 100vw;
+    /*width: 100vw;
     height: 100vh;
-    /*border: 5px solid white;*/
-    position: relative;
+    border: 5px solid white;
+    position: relative;*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -50,7 +50,7 @@ header>nav>ul>li {
     border: 2px solid white;
     position: relative;
     top: 150px;
-    left: 280px;
+    left: 200px;
     grid-column: 1/2;
 }
 
@@ -152,12 +152,12 @@ header>nav>ul>li {
     margin: auto;
 }
 
-.education {
+/*.education {
     width: 100vw;
     height: 100vh;
     border: 5px solid white;
     position: relative;
-}
+}*/
 
 .education>h1 {
     font-family: Arial, sans-serif;
@@ -218,4 +218,69 @@ header>nav>ul>li {
     font-size: 14px;
     line-height: 1.5;
     color: #ccc;
+}
+
+.grid-container {
+    /*width: 100vw;
+    height: 100vh;
+    border: 5px solid white;
+    position: relative;*/
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container>.experience {
+    width: 50vw;
+    height: 100vh;
+    border: 5px solid white;
+    position: relative;
+}
+
+.grid-container>.experience>h1 {
+    font-family: Arial, sans-serif;
+    color: #ee0bf3;
+    font-size: 3vw;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+
+.grid-container>.experience>section {
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+
+.grid-container>.experience>section>ul>li {
+    padding-bottom: 5vh;
+}
+
+.grid-container>.experience>section>ul>li>.committee-img {
+    width: 12vh;
+    height: 12vh;
+    border-radius: 100%;
+    background-image: url("assets/images/Committee.png");
+    background-size: cover;
+}
+
+.grid-container>.experience>section>ul>li>.ijse-img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    background-image: url("assets/images/Ijse.png");
+    background-size: cover;
+}
+
+.grid-container>.experience>section>ul>li>.experience-card>div {
+    width: 30vw;
+    height: 20vh;
+    /*border: 2px solid gold;*/
+    margin-left: 10vw;
+}
+
+.grid-container>.experience>section>ul>li>.experience-card>div>h3 {
+    color: white;
+}
+
+.grid-container>.experience>section>ul>li>.experience-card>div>p {
+    color: white;
 }
