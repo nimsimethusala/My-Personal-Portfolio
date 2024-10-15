@@ -214,67 +214,68 @@ header>nav>ul>li>a{
     color: #ccc;
 }
 
-.grid-container {
-    /*width: 100vw;
-    height: 100vh;
-    border: 5px solid white;
-    position: relative;*/
-    display: inline-grid;
-    grid-template-columns: auto auto;
+.experience {
+    margin-top: 200px;
 }
 
-.grid-container>.experience {
-    width: 50vw;
-    height: 100vh;
-    border: 5px solid white;
-    position: relative;
+.experience>.experience-section1 {
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 480px;
 }
 
-.grid-container>.experience>h1 {
-    font-family: Arial, sans-serif;
-    color: #ee0bf3;
-    font-size: 3vw;
-    position: relative;
-    top: 10vh;
-    left: 10vw;
+.experience>.experience-section1>ul>li {
+    width: 700px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
 }
 
-.grid-container>.experience>section {
-    margin-top: 20vh;
-    margin-left: 15vw;
-}
-
-.grid-container>.experience>section>ul>li {
-    padding-bottom: 5vh;
-}
-
-.grid-container>.experience>section>ul>li>.committee-img {
-    width: 12vh;
-    height: 12vh;
+.experience>.experience-section1>ul>li>.experience-img {
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
+}
+
+.experience>.experience-section1>ul>li>.committee-img {
     background-image: url("assets/images/Committee.png");
     background-size: cover;
 }
 
-.grid-container>.experience>section>ul>li>.ijse-img {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 100%;
+.experience>.experience-section1>ul>li>.ijse-img {
     background-image: url("assets/images/Ijse.png");
     background-size: cover;
 }
 
-.grid-container>.experience>section>ul>li>.experience-card>div {
-    width: 30vw;
-    height: 20vh;
-    /*border: 2px solid gold;*/
-    margin-left: 10vw;
+.experience>.experience-section1>ul>li>.experience-content {
+    width: 450px;
+    height: 150px;
+    margin-left: 50px;
 }
 
-.grid-container>.experience>section>ul>li>.experience-card>div>h3 {
+.experience>.experience-section1>ul>li>.experience-content>h3 {
+    color: white;
+    margin-top: 30px;
+}
+
+.experience>.experience-section1>ul>li>.experience-content>p {
     color: white;
 }
 
-.grid-container>.experience>section>ul>li>.experience-card>div>p {
-    color: white;
+.experience>.skills {
+    width: 1200px;
+    height: 70px;
+    /*border: 2px solid white;*/
+    margin-top: 150px;
+    margin-left: 180px;
+    display: flex;
+}
+
+.experience>.skills>div {
+    margin-left: 80px;
+}
+
+.experience>.skills>div>img {
+    width: 70px;
+    height: 70px;
 }
