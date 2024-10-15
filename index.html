@@ -506,36 +506,31 @@
     </section>
 </main>
 
-<!-- ******************** Contact Section *****************-->
-<main>
-    <h4>Contact</h4>
-
-    <section>
-        <div>
-            <p>
-                First Name<br><br>
-            </p>
-        </div>
-
-        <div>
-            <p>
-                Last Name<br><br>
-            </p>
-        </div>
-
-        <div>
-            <p>
-                Email<br><br>
-            </p>
-        </div>
-
-        <div>
-            <p>
-                Message<br><br><br><br>
-            </p>
-        </div>
-
-        <input type="button" value="Submit"><br><br><br><br>
+<!-- ========== Contact Section =========== -->
+<main id="contact" class="contact">
+    <h1 class="topics">Contact</h1>
+    <section class="contact-section">
+        <form>
+            <div class="name-section">
+                <div class="name">
+                    <label>First Name</label><br>
+                    <input type="text" name="FirstName" style="width: 300px; height: 30px; margin-top: 15px">
+                </div>
+                <div class="name">
+                    <label>Last Name</label><br>
+                    <input type="text" name="lastName" style="width: 300px; height: 30px; margin-top: 15px">
+                </div>
+            </div>
+            <div class="email" style="margin-top: 50px">
+                <label>Email</label><br>
+                <input type="text" name="email">
+            </div>
+            <div class="message" style="margin-top: 50px">
+                <label>Message</label><br>
+                <textarea type="text" name="message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 </main>
 
