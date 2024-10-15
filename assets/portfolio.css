@@ -296,3 +296,73 @@ header>nav>ul>li>a{
     margin-bottom: 15px;
     margin-left: 100px;
 }
+
+.project {
+    margin-top: 150px;
+}
+
+.project>section {
+    width: 1300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+}
+
+.project>section>.card {
+    background-color: #1E1E2F;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+}
+
+.project>section>.card:nth-child(1) {
+    grid-column: 2/3;
+}
+
+.project>section>.card:nth-child(2) {
+    grid-column: 4/5;
+}
+
+.project>section>.card:nth-child(3) {
+    grid-column: 6/7;
+}
+
+.project>section>.card:nth-child(4) {
+    grid-column: 8/9;
+}
+
+.project>section>.card>img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.project>section>.card>.project-content {
+    margin-top: 30px;
+}
+
+.project>section>.card>h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project>section>.card>p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+#hr01 {
+    margin-top: 150px;
+    border: 1px solid #ee0bf3;
+    width: 100%;
+}
