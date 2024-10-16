@@ -609,12 +609,12 @@ footer>section>ul>li>img {
 }
 
 @media all and (max-width: 375px) and (min-width: 320px){
-    /*.hero>.hero-container{
-        !*grid-template-columns: repeat(1, 1fr);*!
+    .hero>.hero-container{
+        /*grid-template-columns: repeat(1, 1fr);*/
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    }*/
+    }
 
     .topics {
         font-size: 100px;
@@ -626,12 +626,12 @@ footer>section>ul>li>img {
 }
 
 @media all and (max-width: 325px){
-    /*.hero>.hero-container{
-        !*grid-template-columns: repeat(1, 1fr);*!
+    .hero>.hero-container{
+        /*grid-template-columns: repeat(1, 1fr);*/
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    }*/
+    }
 
     .topics {
         font-size: 100px;
