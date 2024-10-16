@@ -659,8 +659,12 @@ footer>section>ul>li>img {
     }
 
     .assignment>section>.card {
-        width: 400px;
-        height: 400px;
+        width: 700px;
+        height: 700px;
+    }
+
+    .assignment>section>h2 {
+        font-size: 100px;
     }
 }
 

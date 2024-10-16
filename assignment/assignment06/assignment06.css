@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #06011d;
+    overflow-x: hidden;
+}
+
+#topic1 {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #ee0bf3;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+main>section {
+    width: 1400px;
+    height: 300px;
+    /*border: 2px solid white;*/
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+main>section>div {
+    width: 220px;
+    height: 280px;
+    border-radius: 100%;
+    /*border: 2px solid red;*/
+    text-align: center;
+    background: rgb(6,1,29);
+    background: radial-gradient(circle, rgba(6,1,29,1) 63%, rgba(250,128,252,1) 80%, rgba(238,11,243,1) 100%);
+}
+
+main>section>.card01 {
+    margin-top: 200px;
+}
+
+main>section>.card02 {
+    margin-top: 0;
+}
+
+main>section>.card03 {
+    margin-top: 200px;
+}
+
+main>section>.card04 {
+    margin-top: 0;
+}
+
+main>section>.card05 {
+    margin-top: 200px;
+}
+
+main>section>div>h2 {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+main>section>div>button {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+}
