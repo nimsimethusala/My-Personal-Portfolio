@@ -613,10 +613,10 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        margin-left: 100px;
+        flex-direction: column;
     }
 
-    .education>section>.card {
+    /*.education>section>.card {
         background-color: #1E1E2F;
         border-radius: 20px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -627,7 +627,7 @@ footer>section>ul>li>img {
         text-align: center;
         color: #fff;
         transition: transform 0.3s ease;
-    }
+    }*/
 }
 
 @media all and (max-width: 325px){
@@ -642,6 +642,6 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        margin-left: 100px;
+        flex-direction: column;
     }
 }
