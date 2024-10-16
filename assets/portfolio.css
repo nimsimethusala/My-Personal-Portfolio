@@ -55,7 +55,7 @@ header>nav>ul>li>a{
     margin-left: 170px;
     display: flex;
     gap: 30px;
-    flex-direction: row;
+
     justify-content: flex-start;
     /*align-items: center;*/
     /*grid-template-columns: repeat(2, 1fr);*/
@@ -119,7 +119,7 @@ header>nav>ul>li>a{
 
 .hero>.hero-container>div:nth-child(2)>.circle1 {
     width: 600px;
-    /*height: 600px;*/
+    height: 600px;
     border-radius: 100%;
     /*position: absolute;*/
     display: flex;
@@ -136,7 +136,7 @@ header>nav>ul>li>a{
 
 .hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
     width: 500px;
-    /*height: 500px;*/
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,14 +588,14 @@ footer>section>ul>li>img {
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
-    /*.hero>.hero-container{
-        !*grid-template-columns: repeat(1, 1fr);*!
+    .hero>.hero-container{
+        /*grid-template-columns: repeat(1, 1fr);*/
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
 
-    .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
+    /*.hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
         text-align: center;
     }*/
 
