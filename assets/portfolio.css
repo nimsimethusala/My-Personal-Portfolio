@@ -608,6 +608,10 @@ footer>section>ul>li>img {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .experience>.experience-section1 {
+        margin-left: 300px;
+    }
+
     .education>section>.card {
         width: 300px;
     }
@@ -631,6 +635,18 @@ footer>section>ul>li>img {
     .education>section {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .experience>.experience-section1 {
+        margin-left: 300px;
+    }
+
+    .education>section>.card {
+        width: 300px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 50px;
+    }
 }
 
 @media all and (max-width: 325px){
@@ -646,5 +662,17 @@ footer>section>ul>li>img {
 
     .education>section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .experience>.experience-section1 {
+        margin-left: 300px;
+    }
+
+    .education>section>.card {
+        width: 300px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 50px;
     }
 }
