@@ -47,6 +47,10 @@ header>nav>ul>li>a{
     margin-left: 100px;
 }
 
+.hero {
+    width: 100%;
+}
+
 .hero>.hero-container {
     width: 1200px;
     /*height: 600px;*/
@@ -172,14 +176,17 @@ header>nav>ul>li>a{
 }
 
 .education {
+    width: 100%;
     margin-top: 250px;
 }
 
 .education>section {
     width: 1200px;
     margin-top: 100px;
-    margin-left: 230px;
-    display: flex;
+    margin-left: 200px;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 150px;
 }
 
@@ -188,12 +195,14 @@ header>nav>ul>li>a{
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
     text-align: center;
     color: #fff;
     transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
 }
 
 .education>section>.card>img {
@@ -217,13 +226,13 @@ header>nav>ul>li>a{
 }
 
 .experience>.experience-section1 {
-    width: 800px;
+    width: max-content;
     margin-top: 100px;
     margin-left: 480px;
 }
 
 .experience>.experience-section1>ul>li {
-    width: 700px;
+    width: 1000px;
     display: flex;
     margin-bottom: 30px;
     gap: 20px;
@@ -246,7 +255,7 @@ header>nav>ul>li>a{
 }
 
 .experience>.experience-section1>ul>li>.experience-content {
-    width: 450px;
+    width: max-content;
     height: 150px;
     margin-left: 50px;
 }
@@ -582,7 +591,6 @@ footer>section>ul>li>img {
 
 @media all and (max-width: 768px) and (min-width: 425px){
 
-
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
@@ -597,7 +605,15 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .education>section>.card {
+        width: 300px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 50px;
     }
 }
 
@@ -613,21 +629,8 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
-
-    /*.education>section>.card {
-        background-color: #1E1E2F;
-        border-radius: 20px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-        padding-bottom: 70px;
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 200px;
-        text-align: center;
-        color: #fff;
-        transition: transform 0.3s ease;
-    }*/
 }
 
 @media all and (max-width: 325px){
@@ -642,6 +645,6 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
