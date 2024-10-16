@@ -232,7 +232,7 @@ header>nav>ul>li>a{
 }
 
 .experience>.experience-section1>ul>li {
-    width: 1000px;
+    width: max-content;
     display: flex;
     margin-bottom: 30px;
     gap: 20px;
