@@ -657,6 +657,11 @@ footer>section>ul>li>img {
     .assignment>section {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .assignment>section>.card {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 @media all and (max-width: 325px){
