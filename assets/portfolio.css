@@ -387,8 +387,9 @@ header>nav>ul>li>a{
     color: #fff;
 }
 
-.assignment>section>h2 {
-    font-size: 18px;
+.assignment>section>.card>.project-content>h2 {
+    font-size: 28px;
+    text-align: center;
 }
 
 .gallery {
@@ -663,7 +664,7 @@ footer>section>ul>li>img {
         height: 700px;
     }
 
-    .assignment>section>h2 {
+    .assignment>section>.card>.project-content>h2 {
         font-size: 100px;
     }
 }
