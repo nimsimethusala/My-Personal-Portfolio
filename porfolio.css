@@ -655,12 +655,16 @@ footer>section>ul>li>img {
 
     .project>section>.card {
         width: 900px;
-        height: 1000px;
+        height: 1100px;
     }
 
     .project>section>.card>img {
         width: 500px;
         height: 500px;
+    }
+
+    .project>section>.card>.project-content {
+        margin-top: 80px;
     }
 
     .project>section>.card>div>h2 {
@@ -770,12 +774,16 @@ footer>section>ul>li>img {
 
     .project>section>.card {
         width: 900px;
-        height: 1000px;
+        height: 1100px;
     }
 
     .project>section>.card>img {
         width: 500px;
         height: 500px;
+    }
+
+    .project>section>.card>.project-content {
+        margin-top: 80px;
     }
 
     .project>section>.card>div>h2 {
@@ -885,12 +893,16 @@ footer>section>ul>li>img {
 
     .project>section>.card {
         width: 800px;
-        height: 900px;
+        height: 1000px;
     }
 
     .project>section>.card>img {
         width: 500px;
         height: 500px;
+    }
+
+    .project>section>.card>.project-content {
+        margin-top: 80px;
     }
 
     .project>section>.card>div>h2 {
