@@ -181,7 +181,7 @@ header>nav>ul>li>a{
 }
 
 .education>section {
-    /*width: 1200px;*/
+    width: max-content;
     margin-top: 100px;
     margin-left: 200px;
     /*display: flex;*/
@@ -651,12 +651,13 @@ footer>section>ul>li>img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
+    .education>section>.card {
+        width: 800px;
+        height: 900px;
     }
 
-    .education>section>.card {
-        width: 300px;
+    .experience>.experience-section1 {
+        margin-left: 200px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
