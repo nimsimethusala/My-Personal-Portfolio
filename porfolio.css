@@ -1232,11 +1232,14 @@ footer>section>ul>li>img {
     footer {
         margin-top: 150px;
         width: 1300px;
-        height: 200px;
+        height: 500px;
     }
 
     footer>section>ul {
+        display: flex;
+        flex-direction: column;
         margin-left: 20px;
+        row-gap: 80px;
     }
 
     footer>section>ul>li {
