@@ -595,6 +595,34 @@ footer>section>ul>li>img {
         width: 720px;
         margin-bottom: 30px;
     }
+
+    .education>section {
+        margin-left: 150px;
+    }
+
+    .education>section {
+        margin-left: 120px;
+        gap: 100px;
+    }
+
+    .education>section>.card {
+        width: 300px;
+        height: 350px;
+    }
+
+    .education>section>.card>img {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .education>section>.card>div>h3 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .education>section>.card>div>p {
+        font-size: 25px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
