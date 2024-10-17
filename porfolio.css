@@ -739,6 +739,39 @@ footer>section>ul>li>img {
         margin-top: 80px;
         font-size: 35px;
     }
+
+    .about>section {
+        margin-left: 50px;
+    }
+
+    .about-image {
+        width: 450px;
+        height: 450px;
+        margin-left: 80px;
+    }
+
+    .about-image>img {
+        width: 480px;
+        height: 480px;
+        margin-top: 0;
+    }
+
+    .about-content>h1 {
+        font-size: 70px;
+        margin-top: 10px;
+    }
+
+    .about-content>.lable-content {
+        margin-top: 30px;
+    }
+
+    .about-content>.lable-content>.label>label {
+        font-size: 30px;
+    }
+
+    .about-content>.lable-content>.label>.label1 {
+        width: max-content;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
