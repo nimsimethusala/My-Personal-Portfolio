@@ -638,6 +638,10 @@ footer>section>ul>li>img {
         margin-left: 100px;
     }
 
+    .work>hr {
+        width: 1500px;
+    }
+
     .project>section {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -727,6 +731,10 @@ footer>section>ul>li>img {
         margin-left: 90px;
     }
 
+    .work>hr {
+        width: 1500px;
+    }
+
     .project>section {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -814,6 +822,10 @@ footer>section>ul>li>img {
 
     .experience>.skills>div {
         margin-left: 50px;
+    }
+
+    .work>hr {
+        width: 1300px;
     }
 
     .project>section {
