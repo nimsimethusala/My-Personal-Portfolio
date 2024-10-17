@@ -1179,14 +1179,14 @@ footer>section>ul>li>img {
 
     .education>section {
         margin-top: 200px;
-        margin-left: 170px;
+        margin-left: 200px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .education>section>.card {
         width: 800px;
         height: 900px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .education>section>.card>div>h3 {
