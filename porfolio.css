@@ -725,7 +725,12 @@ footer>section>ul>li>img {
     }
 
     .experience>.skills {
-        margin-left: 100px;
+        margin-left: 50px;
+    }
+
+    .experience>.skills>div>img {
+        width: 90px;
+        height: 90px;
     }
 
     .project>section {
@@ -810,7 +815,12 @@ footer>section>ul>li>img {
     }
 
     .experience>.skills {
-        margin-left: 100px;
+        margin-left: 50px;
+    }
+
+    .experience>.skills>div>img {
+        width: 90px;
+        height: 90px;
     }
 
     .project>section {
