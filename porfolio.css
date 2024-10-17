@@ -52,7 +52,7 @@ header>nav>ul>li>a{
 }
 
 .hero>.hero-container {
-    width: 1200px;
+    width: max-content;
     /*height: 600px;*/
     /*border: 2px solid white;*/
     margin-top: 100px;
@@ -797,6 +797,7 @@ footer>section>ul>li>img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-left: 400px;
     }
 
     .topics {
@@ -1030,6 +1031,7 @@ footer>section>ul>li>img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-left: 350px;
     }
 
     .topics {
