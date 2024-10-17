@@ -642,6 +642,10 @@ footer>section>ul>li>img {
         width: 90px;
         height: 90px;
     }
+
+    .work>h1 {
+        font-size: 70px;
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px){
