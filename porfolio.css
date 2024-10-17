@@ -629,7 +629,19 @@ footer>section>ul>li>img {
         font-size: 25px;
     }
 
+    .experience>.skills {
+        width: max-content;
+        margin-left: 70px;
+    }
 
+    .experience>.skills>div {
+        margin-left: 65px;
+    }
+
+    .experience>.skills>div>img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px){
