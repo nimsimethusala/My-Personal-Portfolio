@@ -685,16 +685,37 @@ footer>section>ul>li>img {
         margin-top: 40px;
     }
 
-    .experience>.experience-section1>ul>li {
-        display: flex;
-        flex-direction: column;
+    .experience>.experience-section1 {
+        margin-left: 280px;
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
+    .experience>.experience-section1>ul>li {
+        width: 930px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-img {
+        width: 450px;
+        height: 450px;
+        border-radius: 100%;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content {
+        width: 800px;
+        height: max-content;
+        margin-left: 0;
+        text-align: center;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 80px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>p {
         font-size: 50px;
     }
 
@@ -749,16 +770,37 @@ footer>section>ul>li>img {
         margin-top: 40px;
     }
 
-    .experience>.experience-section1>ul>li {
-        display: flex;
-        flex-direction: column;
+    .experience>.experience-section1 {
+        margin-left: 280px;
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
+    .experience>.experience-section1>ul>li {
+        width: 930px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-img {
+        width: 450px;
+        height: 450px;
+        border-radius: 100%;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content {
+        width: 800px;
+        height: max-content;
+        margin-left: 0;
+        text-align: center;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 80px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>p {
         font-size: 50px;
     }
 
