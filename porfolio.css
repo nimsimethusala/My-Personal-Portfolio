@@ -704,6 +704,41 @@ footer>section>ul>li>img {
     .gallery-section {
         margin-left: 550px;
     }
+
+    .contact-section {
+        margin-left: 290px;
+    }
+
+    label {
+        font-size: 35px;
+    }
+
+    input, textarea {
+        border-bottom: 3px solid #888;
+    }
+
+    .contact-section>form>.name-section>.name>input {
+        width: 450px;
+        margin-top: 80px;
+    }
+
+    .contact-section>form>.email>input {
+        margin-top: 80px;
+        width: 1000px;
+    }
+
+    .contact-section>form>.message>textarea {
+        margin-top: 15px;
+        width: 1000px;
+        height: 250px;
+    }
+
+    .contact-section>form>button {
+        width: 300px;
+        height: 70px;
+        margin-top: 80px;
+        font-size: 35px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
