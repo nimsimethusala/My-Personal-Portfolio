@@ -772,6 +772,28 @@ footer>section>ul>li>img {
     .about-content>.lable-content>.label>.label1 {
         width: max-content;
     }
+
+    footer {
+        width: 1600px;
+        height: 200px;
+    }
+
+    footer>section>ul {
+        margin-left: 30px;
+    }
+
+    footer>section>ul>li {
+        margin-right: 30px;
+    }
+
+    footer>section>ul>li>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer>section>ul>li>.content>h3 {
+        font-size: 30px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
