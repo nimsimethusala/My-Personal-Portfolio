@@ -708,6 +708,15 @@ footer>section>ul>li>img {
     .assignment>section>.card>.project-content>h2 {
         font-size: 55px;
     }
+
+    .gallery-section {
+        margin-top: 100px;
+        margin-left: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
