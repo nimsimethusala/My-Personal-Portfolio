@@ -681,6 +681,26 @@ footer>section>ul>li>img {
         font-size: 21px;
         line-height: 1.2;
     }
+
+    #hr01 {
+        border: 2px solid #ee0bf3;
+        width: 1600px;
+    }
+
+    .assignment>section {
+        margin-left: 140px;
+        gap: 150px;
+    }
+
+    .assignment>section>.card {
+        width: 300px;
+        height: 300px;
+        border-radius: 90px;
+    }
+
+    .assignment>section>.card>.project-content>h2 {
+        font-size: 50px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
