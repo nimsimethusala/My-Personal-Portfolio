@@ -658,6 +658,38 @@ footer>section>ul>li>img {
     .work>h1 {
         font-size: 80px;
     }
+
+    .project>section {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 100px;
+        row-gap: 100px;
+        margin-left: 130px;
+    }
+
+    .project>section>.card {
+        width: 450px;
+        height: 500px;
+    }
+
+    .project>section>.card>img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 0;
+    }
+
+    .project>section>.card>.project-content {
+        margin-top: 10px;
+    }
+
+    .project>section>.card>div>h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .project>section>.card>div>p {
+        font-size: 26px;
+        line-height: 1;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
