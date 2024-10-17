@@ -996,11 +996,13 @@ footer>section>ul>li>img {
     footer {
         margin-top: 150px;
         width: 1400px;
-        height: 200px;
+        height: 500px;
     }
 
     footer>section>ul {
-        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
     }
 
     footer>section>ul>li {
@@ -1013,7 +1015,7 @@ footer>section>ul>li>img {
     }
 
     footer>section>ul>li>div>h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
