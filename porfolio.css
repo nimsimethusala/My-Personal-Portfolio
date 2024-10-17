@@ -623,6 +623,33 @@ footer>section>ul>li>img {
     .education>section>.card>div>p {
         font-size: 25px;
     }
+
+    .experience>.experience-section1 {
+        margin-left: 180px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 80px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>h3 {
+        font-size: 45px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>p {
+        font-size: 35px;
+    }
+
+    .experience>.skills {
+        margin-left: 10px;
+    }
+
+    .experience>.skills>div>img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
