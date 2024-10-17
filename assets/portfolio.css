@@ -245,12 +245,12 @@ header>nav>ul>li>a{
 }
 
 .experience>.experience-section1>ul>li>.committee-img {
-    background-image: url("images/Committee.png");
+    background-image: url("assets/images/Committee.png");
     background-size: cover;
 }
 
 .experience>.experience-section1>ul>li>.ijse-img {
-    background-image: url("images/Ijse.png");
+    background-image: url("assets/images/Ijse.png");
     background-size: cover;
 }
 
