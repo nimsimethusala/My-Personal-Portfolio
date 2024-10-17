@@ -609,6 +609,27 @@ footer>section>ul>li>img {
     .education>section>.card>div>p {
         font-size: 25px;
     }
+
+    .experience>.experience-section1 {
+        margin-left: 220px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-img {
+        width: 270px;
+        height: 270px;
+        border-radius: 80px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>h3 {
+        margin-top: 65px;
+        font-size: 40px;
+    }
+
+    .experience>.experience-section1>ul>li>.experience-content>p {
+        font-size: 25px;
+    }
+
+
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px){
