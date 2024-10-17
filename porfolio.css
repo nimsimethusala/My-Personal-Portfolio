@@ -4,7 +4,8 @@
 }
 
 body {
-    background: #06011d;
+    background:
+            #f4b1fa;
     overflow-x: hidden;
 }
 
@@ -363,10 +364,10 @@ header>nav>ul>li>a{
 }
 
 .assignment>section>.card {
-    background: rgb(6,1,29);
-    background: radial-gradient(circle, rgba(6,1,29,1) 0%, rgba(6,1,29,1) 26%, rgba(6,1,29,1) 53%, rgba(226,15,250,1) 80%, rgba(226,15,250,1) 100%);
+    background: rgb(222,208,247);
+    background: radial-gradient(circle, rgba(222,208,247,1) 8%, rgb(250, 103, 248) 87%);
     border-radius: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 15px rgb(255, 100, 221);
     padding: 20px;
     width: 200px;
     height: 200px;
