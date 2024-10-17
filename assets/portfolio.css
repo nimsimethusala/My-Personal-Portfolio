@@ -648,7 +648,6 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        margin-top: 200px;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -657,22 +656,7 @@ footer>section>ul>li>img {
     }
 
     .education>section>.card {
-        width: 800px;
-        height: 900px;
-        margin-left: 150px;
-    }
-
-    .education>section>.card>div>h3 {
-        font-size: 80px;
-    }
-
-    .education>section>.card>img {
-        width: 450px;
-    }
-
-    .education>section>.card>div>p {
-        font-size: 50px;
-        margin-top: 40px;
+        width: 300px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
@@ -680,19 +664,26 @@ footer>section>ul>li>img {
     }
 
     .experience>.skills {
-        margin-left: 100px;
+        margin-left: 20px;
     }
 
     .project>section {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 80px;
-        row-gap: 80px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .assignment>section {
-        width: 700px;
-        grid-template-columns: repeat(2, 1fr);
+    /*.assignment>section {
+        grid-template-columns: repeat(1, 1fr);
     }
+
+    .assignment>section>.card {
+        width: 700px;
+        height: 500px;
+        border-radius: 0;
+    }
+
+    .assignment>section>.card>.project-content>h2 {
+        font-size: 100px;
+    }*/
 }
 
 @media all and (max-width: 325px){
@@ -707,31 +698,15 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        margin-top: 200px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .experience>.experience-section1 {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     .education>section>.card {
-        width: 800px;
-        height: 900px;
-        margin-left: 150px;
-    }
-
-    .education>section>.card>div>h3 {
-        font-size: 80px;
-    }
-
-    .education>section>.card>img {
-        width: 450px;
-    }
-
-    .education>section>.card>div>p {
-        font-size: 50px;
-        margin-top: 40px;
+        width: 300px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
@@ -739,17 +714,14 @@ footer>section>ul>li>img {
     }
 
     .experience>.skills {
-        margin-left: 100px;
+        margin-left: 20px;
     }
 
     .project>section {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 80px;
-        row-gap: 80px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .assignment>section {
-        width: 700px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
