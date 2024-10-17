@@ -1157,7 +1157,7 @@ footer>section>ul>li>img {
     .about-image {
         width: 550px;
         height: 600px;
-        margin-left: 400px;
+        margin-left: 300px;
     }
 
     .about-image>img {
@@ -1166,24 +1166,28 @@ footer>section>ul>li>img {
     }
 
     .about-content {
-        margin-left: 80px;
+        width: max-content;
+        margin-left: 60px;
     }
 
     .about-content>.lable-content>.label>label {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .about-content>.lable-content>.label {
-        gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-content>h1 {
         font-size: 80px;
         margin-top: 100px;
-        margin-left: 350px;
+        margin-left: 300px;
     }
 
     .about-content>.lable-content>.label>.label1 {
+        color: #ee0bf3;
         width: 190px;
     }
 }
