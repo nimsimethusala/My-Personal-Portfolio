@@ -656,6 +656,31 @@ footer>section>ul>li>img {
     .work>h1 {
         font-size: 70px;
     }
+
+    .project>section>.card {
+        width: 290px;
+        height: 380px;
+    }
+
+    .project>section>.card>img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 0;
+    }
+
+    .project>section>.card>.project-content {
+        margin-top: 0;
+    }
+
+    .project>section>.card>div>h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .project>section>.card>div>p {
+        font-size: 21px;
+        line-height: 1.2;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
