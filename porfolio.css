@@ -239,7 +239,6 @@ header>nav>ul>li>a{
 .experience>.skills {
     width: 1200px;
     height: 70px;
-    /*border: 2px solid white;*/
     margin-top: 150px;
     margin-left: 180px;
     display: flex;
@@ -635,7 +634,19 @@ footer>section>ul>li>img {
         font-size: 25px;
     }
 
+    .experience>.skills {
+        width: max-content;
+        margin-left: 40px;
+    }
 
+    .experience>.skills>div {
+        margin-left: 65px;
+    }
+
+    .experience>.skills>div>img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
