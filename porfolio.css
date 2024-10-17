@@ -163,7 +163,8 @@ header>nav>ul>li>a{
 }
 
 .education>section>.card {
-    background-color: #1E1E2F;
+    background: rgb(222,208,247);
+    background: radial-gradient(circle, rgba(222,208,247,1) 8%, rgba(244,177,250,1) 20%, rgba(203,128,252,1) 94%);
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding-bottom: 70px;
@@ -182,15 +183,16 @@ header>nav>ul>li>a{
     margin-bottom: 30px;
 }
 
-.education>section>.card>h3 {
+.education>section>.card>div>h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #a806d2;
 }
 
-.education>section>.card>p {
+.education>section>.card>div>p {
     font-size: 14px;
     line-height: 1.5;
-    color: #ccc;
+    color: #8c09b0;
 }
 
 .experience {
@@ -233,12 +235,12 @@ header>nav>ul>li>a{
 }
 
 .experience>.experience-section1>ul>li>.experience-content>h3 {
-    color: white;
+    color: #a42399;
     margin-top: 30px;
 }
 
 .experience>.experience-section1>ul>li>.experience-content>p {
-    color: white;
+    color: #8d169f;
 }
 
 .experience>.skills {
@@ -264,7 +266,7 @@ header>nav>ul>li>a{
 }
 
 .work>hr {
-    border: 1px solid #fda117;
+    border: 1px solid #4d0e91;
 }
 
 .work>h1 {
@@ -292,9 +294,10 @@ header>nav>ul>li>a{
 }
 
 .project>section>.card {
-    background-color: #1E1E2F;
+    background: rgb(222,208,247);
+    background: radial-gradient(circle, rgba(222,208,247,1) 8%, rgba(244,177,250,1) 20%, rgba(203,128,252,1) 94%);
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(215, 5, 5, 0.5);
+    box-shadow: 0 0 15px 15px rgba(109, 3, 180, 0.5);
     padding: 20px;
     width: 250px;
     height: 300px;
@@ -314,15 +317,19 @@ header>nav>ul>li>a{
     margin-top: 30px;
 }
 
-.project>section>.card>h2 {
+.project>section>.card>div>h2 {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.project>section>.card>p {
+.project>section>.card>div>h2>a {
+    text-decoration: none;
+}
+
+.project>section>.card>div>p {
     font-size: 14px;
     line-height: 1.5;
-    color: #ccc;
+    color: #7d04be;
 }
 
 #hr01 {
@@ -362,6 +369,10 @@ header>nav>ul>li>a{
 .assignment>section>.card>.project-content>h2 {
     font-size: 28px;
     text-align: center;
+}
+
+.assignment>section>.card>.project-content>h2>a {
+    text-decoration: none;
 }
 
 .gallery {
@@ -611,7 +622,7 @@ footer>section>ul>li>img {
     }
 
     .topics {
-        font-size: 100px;
+        font-size: 130px;
     }
 
     .education>section {
@@ -622,7 +633,7 @@ footer>section>ul>li>img {
     .education>section>.card {
         width: 800px;
         height: 900px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
 
     .education>section>.card>div>h3 {
@@ -710,6 +721,10 @@ footer>section>ul>li>img {
 
     .project>section>.card>div>p {
         font-size: 50px;
+    }
+
+    #hr01 {
+        width: 1500px;
     }
 
     .assignment>section {
@@ -979,6 +994,10 @@ footer>section>ul>li>img {
 
     .project>section>.card>div>p {
         font-size: 50px;
+    }
+
+    #hr01 {
+        width: 1500px;
     }
 
     .assignment>section {
@@ -1258,6 +1277,10 @@ footer>section>ul>li>img {
 
     .project>section>.card>div>p {
         font-size: 40px;
+    }
+
+    #hr01 {
+        width: 1300px;
     }
 
     .assignment>section {
