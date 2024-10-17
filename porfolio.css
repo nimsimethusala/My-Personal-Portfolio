@@ -386,15 +386,19 @@ header>nav>ul>li>a{
 
 .gallery-section {
     margin-top: 100px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    /*place-items: center;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-section>div {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    max-width: 400px;
+    width: max-content;
     padding: 2rem;
 }
 
@@ -689,6 +693,10 @@ footer>section>ul>li>img {
     .assignment>section>.card>.project-content>h2 {
         font-size: 70px;
     }
+
+    .gallery-section>div {
+        margin-left: 1100px;
+    }
 }
 
 @media all and (max-width: 375px) and (min-width: 325px){
@@ -819,6 +827,10 @@ footer>section>ul>li>img {
     .assignment>section>.card>.project-content>h2 {
         font-size: 70px;
     }
+
+    .gallery-section>div {
+        margin-left: 1100px;
+    }
 }
 
 @media all and (max-width: 325px){
@@ -948,5 +960,9 @@ footer>section>ul>li>img {
 
     .assignment>section>.card>.project-content>h2 {
         font-size: 70px;
+    }
+
+    .gallery-section>div {
+        margin-left: 1100px;
     }
 }
