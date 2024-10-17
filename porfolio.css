@@ -797,6 +797,26 @@ footer>section>ul>li>img {
         width: max-content;
         font-size: 40px;
     }
+
+    footer {
+        width: 1500px;
+        height: 500px;
+    }
+
+    footer>section>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    footer>section>ul>li>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer>section>ul>li>.content>h3 {
+        font-size: 40px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
