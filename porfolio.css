@@ -675,18 +675,19 @@ footer>section>ul>li>img {
     }
 
     .assignment>section {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 100px;
-        margin-left: 150px;
+        margin-left: 250px;
     }
 
     .assignment>section>.card {
-        width: 500px;
-        height: 500px;
+        width: 1000px;
+        height: 150px;
+        border-radius: 200px;
     }
 
     .assignment>section>.card>.project-content>h2 {
-        font-size: 80px;
+        font-size: 70px;
     }
 }
 
