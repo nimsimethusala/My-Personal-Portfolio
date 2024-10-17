@@ -700,6 +700,10 @@ footer>section>ul>li>img {
     .assignment>section>.card>.project-content>h2 {
         font-size: 50px;
     }
+
+    .gallery-section {
+        margin-left: 550px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
