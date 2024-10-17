@@ -581,10 +581,6 @@ footer>section>ul>li>img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
-    }
-
     .education>section>.card {
         width: 800px;
         height: 900px;
@@ -602,6 +598,15 @@ footer>section>ul>li>img {
     .education>section>.card>div>p {
         font-size: 50px;
         margin-top: 40px;
+    }
+
+    .experience>.experience-section1>ul>li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience>.experience-section1 {
+        margin-left: 200px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
@@ -640,10 +645,6 @@ footer>section>ul>li>img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
-    }
-
     .education>section>.card {
         width: 800px;
         height: 900px;
@@ -661,6 +662,15 @@ footer>section>ul>li>img {
     .education>section>.card>div>p {
         font-size: 50px;
         margin-top: 40px;
+    }
+
+    .experience>.experience-section1>ul>li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience>.experience-section1 {
+        margin-left: 200px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
@@ -699,10 +709,6 @@ footer>section>ul>li>img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .experience>.experience-section1 {
-        margin-left: 200px;
-    }
-
     .education>section>.card {
         width: 800px;
         height: 900px;
@@ -720,6 +726,15 @@ footer>section>ul>li>img {
     .education>section>.card>div>p {
         font-size: 50px;
         margin-top: 40px;
+    }
+
+    .experience>.experience-section1>ul>li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience>.experience-section1 {
+        margin-left: 200px;
     }
 
     .experience>.experience-section1>ul>li>.experience-content>h3 {
