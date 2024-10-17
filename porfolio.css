@@ -635,7 +635,7 @@ footer>section>ul>li>img {
     }
 
     .experience>.skills {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .project>section {
@@ -723,6 +723,10 @@ footer>section>ul>li>img {
         margin-left: 20px;
     }
 
+    .experience>.skills>div {
+        margin-left: 30px;
+    }
+
     .project>section {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -806,6 +810,10 @@ footer>section>ul>li>img {
 
     .experience>.skills {
         margin-left: 20px;
+    }
+
+    .experience>.skills>div {
+        margin-left: 30px;
     }
 
     .project>section {
