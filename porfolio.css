@@ -4,8 +4,7 @@
 }
 
 body {
-    background:
-            #f4b1fa;
+    background: #ecc0fa;
     overflow-x: hidden;
 }
 
@@ -353,7 +352,6 @@ header>nav>ul>li>a{
 }
 
 .assignment>section {
-    width: 1300px;
     margin-top: 100px;
     margin-left: 100px;
     /*border: 2px solid white;*/
@@ -677,8 +675,18 @@ footer>section>ul>li>img {
     }
 
     .assignment>section {
-        width: 700px;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 100px;
+        margin-left: 150px;
+    }
+
+    .assignment>section>.card {
+        width: 500px;
+        height: 500px;
+    }
+
+    .assignment>section>.card>.project-content>h2 {
+        font-size: 80px;
     }
 }
 
