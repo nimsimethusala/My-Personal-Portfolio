@@ -1187,7 +1187,7 @@ footer>section>ul>li>img {
     }
 
     .about-content>.lable-content>.label>.label1 {
-        color: #ee0bf3;
+        color: rgba(138, 6, 141, 0.24);
         width: 190px;
     }
 }
