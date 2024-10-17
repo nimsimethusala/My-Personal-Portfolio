@@ -752,6 +752,51 @@ footer>section>ul>li>img {
         margin-top: 80px;
         font-size: 35px;
     }
+
+    .about>section {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 800px;
+        height: 800px;
+        margin-left: 350px;
+    }
+
+    .about-image>img {
+        width: 800px;
+        height: 800px;
+    }
+
+    .about-content>h1 {
+        font-size: 80px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 250px;
+    }
+
+    .about-content {
+        width: max-content;
+        margin-left: 300px;
+    }
+
+    .about-content>.lable-content>.label {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content>.lable-content>.label>.label1 {
+        width: max-content;
+        color: rgba(205, 122, 206, 0.99);
+        margin-bottom: 20px;
+    }
+
+    .about-content>.lable-content>.label>label {
+        width: max-content;
+        font-size: 40px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
