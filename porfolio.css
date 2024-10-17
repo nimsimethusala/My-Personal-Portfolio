@@ -53,16 +53,11 @@ header>nav>ul>li>a{
 
 .hero>.hero-container {
     width: max-content;
-    /*height: 600px;*/
-    /*border: 2px solid white;*/
     margin-top: 100px;
     margin-left: 170px;
     display: flex;
     gap: 30px;
-
-    justify-content: flex-start;
-    /*align-items: center;*/
-    /*grid-template-columns: repeat(2, 1fr);*/
+    justify-content: center;
 }
 
 .hero>.hero-container>div:nth-child(1)>.myName {
@@ -85,15 +80,16 @@ header>nav>ul>li>a{
 .hero>.hero-container>div:nth-child(1)>h2 {
     margin-top: 20px;
     margin-left: 70px;
-    color: #ffddf4;
+    color: #a9147a;
     font-size: 30px;
 }
 
 .hero>.hero-container>div:nth-child(1)>button {
     margin-top: 30px;
     margin-left: 70px;
+    border-radius: 50px;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .hero>.hero-container>div:nth-child(1)>.hero-icon>ul {
@@ -113,7 +109,6 @@ header>nav>ul>li>a{
     width: 600px;
     height: 600px;
     border-radius: 100%;
-    /*position: absolute;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,10 +148,8 @@ header>nav>ul>li>a{
 }
 
 .education>section {
-    /*width: 1200px;*/
     margin-top: 100px;
     margin-left: 200px;
-    /*display: flex;*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 150px;
@@ -271,7 +264,7 @@ header>nav>ul>li>a{
 
 .work>h1 {
     font-family: Arial, sans-serif;
-    color: #fda117;
+    color: #4d0e91;
     font-size: 50px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -345,9 +338,8 @@ header>nav>ul>li>a{
 .assignment>section {
     margin-top: 100px;
     margin-left: 100px;
-    /*border: 2px solid white;*/
     display: grid;
-    row-gap: 70px;
+    gap: 70px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
@@ -376,7 +368,7 @@ header>nav>ul>li>a{
 }
 
 .gallery {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .gallery-section {
@@ -433,7 +425,7 @@ header>nav>ul>li>a{
 }
 
 label {
-    color: white;
+    color: #a42399;
 }
 
 .contact-section>form>.name-section>.name {
@@ -472,6 +464,7 @@ input, textarea {
     width: 150px;
     height: 30px;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .about {
@@ -479,11 +472,9 @@ input, textarea {
 }
 
 .about>section {
-    width: 1400px;
+    width: max-content;
     margin-left: 60px;
-    /*border: 2px solid white;*/
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
 }
 
 .about-image {
@@ -786,7 +777,7 @@ footer>section>ul>li>img {
     }
 
     .about>section {
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
 
     .about-image {
@@ -1059,7 +1050,7 @@ footer>section>ul>li>img {
     }
 
     .about>section {
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
 
     .about-image {
@@ -1097,7 +1088,7 @@ footer>section>ul>li>img {
 
     footer {
         margin-top: 150px;
-        width: 1400px;
+        width: 1500px;
         height: 500px;
     }
 
@@ -1344,7 +1335,7 @@ footer>section>ul>li>img {
     }
 
     .about>section {
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
 
     .about-image {
@@ -1360,7 +1351,7 @@ footer>section>ul>li>img {
 
     .about-content {
         width: max-content;
-        margin-left: 80px;
+        margin-left: 130px;
     }
 
     .about-content>.lable-content>.label>label {
@@ -1376,12 +1367,12 @@ footer>section>ul>li>img {
     .about-content>h1 {
         font-size: 80px;
         margin-top: 100px;
-        margin-left: 300px;
+        margin-left: 250px;
     }
 
     .about-content>.lable-content>.label>.label1 {
-        color: rgba(138, 6, 141, 0.24);
-        width: 190px;
+        color: rgba(229, 11, 234, 0.24);
+        width: max-content;
     }
 
     footer {
