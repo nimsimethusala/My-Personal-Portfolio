@@ -875,6 +875,43 @@ footer>section>ul>li>img {
     .gallery-section>div {
         margin-left: 1100px;
     }
+
+    .contact-section {
+        margin-left: 350px;
+    }
+
+    label {
+        font-size: 50px;
+    }
+
+    .contact-section>form>.name-section {
+        flex-direction: column;
+    }
+
+    .contact-section>form>.name-section>.name>input {
+        width: 810px;
+        height: 30px;
+        margin-top: 15px
+    }
+
+    .contact-section>form>.email>input {
+        width: 810px;
+    }
+
+    input, textarea {
+        border-bottom: 6px solid rgba(138, 6, 141, 0.44);
+    }
+
+    .contact-section>form>.message>textarea {
+        width: 810px;
+    }
+
+    .contact-section>form>button {
+        width: 250px;
+        height: 80px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
 }
 
 @media all and (max-width: 325px){
@@ -1008,5 +1045,42 @@ footer>section>ul>li>img {
 
     .gallery-section>div {
         margin-left: 1000px;
+    }
+
+    .contact-section {
+        margin-left: 350px;
+    }
+
+    label {
+        font-size: 50px;
+    }
+
+    .contact-section>form>.name-section {
+        flex-direction: column;
+    }
+
+    .contact-section>form>.name-section>.name>input {
+        width: 810px;
+        height: 30px;
+        margin-top: 15px
+    }
+
+    .contact-section>form>.email>input {
+        width: 810px;
+    }
+
+    input, textarea {
+        border-bottom: 6px solid rgba(138, 6, 141, 0.44);
+    }
+
+    .contact-section>form>.message>textarea {
+        width: 810px;
+    }
+
+    .contact-section>form>button {
+        width: 250px;
+        height: 80px;
+        margin-top: 50px;
+        font-size: 50px;
     }
 }
