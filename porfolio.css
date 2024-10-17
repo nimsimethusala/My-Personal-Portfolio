@@ -1048,7 +1048,7 @@ footer>section>ul>li>img {
     }
 
     .contact-section {
-        margin-left: 350px;
+        margin-left: 230px;
     }
 
     label {
@@ -1061,12 +1061,12 @@ footer>section>ul>li>img {
 
     .contact-section>form>.name-section>.name>input {
         width: 810px;
-        height: 30px;
-        margin-top: 15px
+        margin-top: 80px
     }
 
     .contact-section>form>.email>input {
         width: 810px;
+        margin-top: 80px
     }
 
     input, textarea {
@@ -1075,6 +1075,7 @@ footer>section>ul>li>img {
 
     .contact-section>form>.message>textarea {
         width: 810px;
+        margin-top: 90px
     }
 
     .contact-section>form>button {
