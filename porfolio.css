@@ -553,7 +553,44 @@ footer>section>ul>li>img {
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px){
+    .topics {
+        font-size: 70px;
+    }
 
+    .hero>.hero-container {
+        margin-left: 30px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
+        font-size: 110px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>h2 {
+        font-size: 40px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>button {
+        font-size: 35px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul>li {
+        font-size: 55px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1 {
+        width: 700px;
+        height: 700px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
+        width: 550px;
+        height: 550px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>div>img {
+        width: 720px;
+        margin-bottom: 40px;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
