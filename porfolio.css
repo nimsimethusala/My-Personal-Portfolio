@@ -773,7 +773,13 @@ footer>section>ul>li>img {
     footer {
         margin-top: 150px;
         width: 1500px;
-        height: 200px;
+        height: 500px;
+    }
+
+    footer>section>ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
     }
 
     footer>section>ul>li>img {
@@ -782,7 +788,7 @@ footer>section>ul>li>img {
     }
 
     footer>section>ul>li>div>h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
