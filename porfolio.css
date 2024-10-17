@@ -690,6 +690,24 @@ footer>section>ul>li>img {
         font-size: 26px;
         line-height: 1;
     }
+
+    #hr01 {
+        width: 1500px;
+    }
+
+    .assignment>section {
+        margin-left: 130px;
+    }
+
+    .assignment>section>.card {
+        width: 330px;
+        height: 330px;
+        border-radius: 80px;
+    }
+
+    .assignment>section>.card>.project-content>h2 {
+        font-size: 55px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
