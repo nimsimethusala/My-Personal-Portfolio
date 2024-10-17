@@ -140,27 +140,11 @@ header>nav>ul>li>a{
             rgb(138 6 141 / 10%),
             rgb(138 6 141 / 0%)
     );
-    /*position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;*/
-}
-
-.hero>.hero-container>div:nth-child(2)>.circle1>div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero>.hero-container>div:nth-child(2)>.circle1>div>img {
     width: 620px;
     height: auto;
-    /*position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    margin: auto;*/
 }
 
 .education {
@@ -578,6 +562,52 @@ footer>section>ul>li>img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-left: 170px;
+    }
+
+    .hero>.hero-container>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
+        font-size: 200px;
+        text-align: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>h2 {
+        font-size: 80px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>button {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul {
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul>li {
+        font-size: 100px;
+        margin-right: 50px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1 {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
+        width: 800px;
+        height: 800px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>div>img {
+        width: 1020px;
+        height: auto;
     }
 
     .topics {
@@ -797,7 +827,52 @@ footer>section>ul>li>img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin-left: 400px;
+        margin-left: 100px;
+    }
+
+    .hero>.hero-container>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
+        font-size: 200px;
+        text-align: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>h2 {
+        font-size: 80px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>button {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul {
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul>li {
+        font-size: 100px;
+        margin-right: 50px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1 {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
+        width: 800px;
+        height: 800px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>div>img {
+        width: 1020px;
+        height: auto;
     }
 
     .topics {
@@ -1031,7 +1106,52 @@ footer>section>ul>li>img {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin-left: 350px;
+        margin-left: 50px;
+    }
+
+    .hero>.hero-container>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>div:nth-child(1)>h1 {
+        font-size: 200px;
+        text-align: center;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>h2 {
+        font-size: 80px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>button {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul {
+        margin-top: 100px;
+    }
+
+    .hero>.hero-container>div:nth-child(1)>.hero-icon>ul>li {
+        font-size: 100px;
+        margin-right: 50px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1 {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>.circle2 {
+        width: 800px;
+        height: 800px;
+    }
+
+    .hero>.hero-container>div:nth-child(2)>.circle1>div>img {
+        width: 1020px;
+        height: auto;
     }
 
     .topics {
