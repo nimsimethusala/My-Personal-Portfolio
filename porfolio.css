@@ -1150,5 +1150,44 @@ footer>section>ul>li>img {
         font-size: 50px;
     }
 
+    .about>section {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .about-image {
+        width: 550px;
+        height: 600px;
+        margin-left: 300px;
+    }
+
+    .about-image>img {
+        width: 600px;
+        height: 600px;
+    }
+
+    .about-content {
+        width: max-content;
+        margin-left: 60px;
+    }
+
+    .about-content>.lable-content>.label>label {
+        font-size: 50px;
+    }
+
+    .about-content>.lable-content>.label {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content>h1 {
+        font-size: 80px;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+
+    .about-content>.lable-content>.label>.label1 {
+        color: rgba(138, 6, 141, 0.24);
+        width: 190px;
+    }
 }
