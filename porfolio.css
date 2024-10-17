@@ -304,6 +304,7 @@ header>nav>ul>li>a{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     justify-items: center;
+    align-items: center;
 }
 
 .project>section>.card {
@@ -647,9 +648,27 @@ footer>section>ul>li>img {
     }
 
     .project>section {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 80px;
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 80px;
+        margin-left: 230px;
+    }
+
+    .project>section>.card {
+        width: 900px;
+        height: 1000px;
+    }
+
+    .project>section>.card>img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .project>section>.card>div>h2 {
+        font-size: 80px;
+    }
+
+    .project>section>.card>div>p {
+        font-size: 50px;
     }
 
     .assignment>section {
@@ -744,9 +763,27 @@ footer>section>ul>li>img {
     }
 
     .project>section {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 80px;
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 80px;
+        margin-left: 200px;
+    }
+
+    .project>section>.card {
+        width: 900px;
+        height: 1000px;
+    }
+
+    .project>section>.card>img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .project>section>.card>div>h2 {
+        font-size: 80px;
+    }
+
+    .project>section>.card>div>p {
+        font-size: 50px;
     }
 
     .assignment>section {
@@ -841,9 +878,27 @@ footer>section>ul>li>img {
     }
 
     .project>section {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 80px;
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 80px;
+        margin-left: 200px;
+    }
+
+    .project>section>.card {
+        width: 800px;
+        height: 900px;
+    }
+
+    .project>section>.card>img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .project>section>.card>div>h2 {
+        font-size: 70px;
+    }
+
+    .project>section>.card>div>p {
+        font-size: 40px;
     }
 
     .assignment>section {
