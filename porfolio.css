@@ -638,11 +638,6 @@ footer>section>ul>li>img {
         margin-left: 20px;
     }
 
-    .experience>.skills>div>img {
-        width: 90px;
-        height: 90px;
-    }
-
     .project>section {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -728,11 +723,6 @@ footer>section>ul>li>img {
         margin-left: 20px;
     }
 
-    .experience>.skills>div>img {
-        width: 90px;
-        height: 90px;
-    }
-
     .project>section {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -816,11 +806,6 @@ footer>section>ul>li>img {
 
     .experience>.skills {
         margin-left: 20px;
-    }
-
-    .experience>.skills>div>img {
-        width: 90px;
-        height: 90px;
     }
 
     .project>section {
