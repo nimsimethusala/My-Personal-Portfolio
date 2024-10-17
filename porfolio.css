@@ -651,6 +651,13 @@ footer>section>ul>li>img {
         height: 90px;
     }
 
+    .work>hr {
+        width: 1500px;
+    }
+
+    .work>h1 {
+        font-size: 80px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
