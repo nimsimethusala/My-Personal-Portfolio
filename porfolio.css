@@ -656,6 +656,10 @@ footer>section>ul>li>img {
         font-size: 70px;
     }
 
+    .project>section {
+        margin-left: 30px;
+    }
+
     .project>section>.card {
         width: 290px;
         height: 380px;
