@@ -23,13 +23,10 @@ h1 {
 
 main>section {
     width: 1300px;
-    height: 300px;
-    /*border: 2px solid white;*/
     margin-left: 30px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     gap: 50px;
 }
 
@@ -70,4 +67,72 @@ main>section>div>button {
     width: 80px;
     height: 30px;
     margin-top: 20px;
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media all and (max-width: 768px) and (min-width: 425px){
+
+}
+
+@media all and (max-width: 425px) and (min-width: 375px){
+
+}
+
+@media all and (max-width: 375px) and (min-width: 325px){
+
+}
+
+@media all and (max-width: 325px){
+    #topic1 {
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    main>section {
+        flex-direction: column;
+        width: max-content;
+        margin-left: 15px;
+        gap: 10px;
+    }
+
+    main>section>div {
+        width: 200px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    main>.card-section1 {
+        margin-top: 50px;
+    }
+
+    main>.card-section2 {
+        margin-top: 10px;
+    }
+
+    main>section>.card01 {
+        margin-top: 20px;
+    }
+
+    main>section>.card02 {
+        margin-top: 20px;
+    }
+
+    main>section>.card03 {
+        margin-top: 20px;
+    }
+
+    main>section>.card04 {
+        margin-top: 20px;
+    }
+
+    main>section>.card05 {
+        margin-top: 20px;
+    }
+
+    main>section>.card06 {
+        margin-top: 20px;
+    }
 }
