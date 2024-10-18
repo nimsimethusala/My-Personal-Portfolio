@@ -1662,7 +1662,7 @@ footer>section>ul>li>img {
     .about-image {
         width: 550px;
         height: 600px;
-        margin-left: 400px;
+        margin-left: 370px;
     }
 
     .about-image>img {
@@ -1671,25 +1671,28 @@ footer>section>ul>li>img {
     }
 
     .about-content {
-        margin-left: 150px;
+        width: max-content;
+        margin-left: 200px;
     }
 
     .about-content>.lable-content>.label>label {
         font-size: 40px;
     }
 
+    .about-content>.lable-content>.label {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about-content>h1 {
         font-size: 80px;
         margin-top: 100px;
-        margin-left: 350px;
-    }
-
-    .about-content>.lable-content>.label {
-        gap: 50px;
+        margin-left: 270px;
     }
 
     .about-content>.lable-content>.label>.label1 {
-        width: 190px;
+        width: max-content;
     }
 
     footer {
