@@ -651,6 +651,12 @@ footer>section>ul>li>img {
     .project>section {
         margin-left: 25px;
     }
+
+    .assignment>section {
+        margin-left: 30px;
+        column-gap: 30px;
+        row-gap: 130px;
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px){
