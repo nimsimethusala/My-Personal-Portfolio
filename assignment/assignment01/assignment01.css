@@ -9,22 +9,16 @@ body {
 }
 
 #topic1 {
-    margin-top: 90px;
-    margin-left: 100px;
-}
-
-h1 {
     font-family: Arial, sans-serif;
     color: #ee0bf3;
-    font-size: 50px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 90px;
     margin-left: 100px;
+    width: max-content;
 }
 
 main>section {
-    width: 1200px;
-    height: 300px;
-    /*border: 2px solid white;*/
+    width: max-content;
     margin-left: 100px;
     margin-top: 80px;
     display: flex;
@@ -63,7 +57,53 @@ main>section>div>h2 {
 }
 
 main>section>div>button {
+    font-size: 20px;
     width: 80px;
     height: 30px;
     margin-top: 20px;
+}
+
+@media all and (max-width: 1440px) and (min-width: 1024px){
+
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media all and (max-width: 768px) and (min-width: 425px){
+
+}
+
+@media all and (max-width: 425px) and (min-width: 375px){
+
+}
+
+@media all and (max-width: 375px) and (min-width: 325px){
+
+}
+
+@media all and (max-width: 325px){
+    #topic1 {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    main>section {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 5px;
+    }
+
+    main>section>.card01 {
+        margin-top: 20px;
+    }
+
+    main>section>.card02 {
+        margin-top: 20px;
+    }
+
+    main>section>.card03 {
+        margin-top: 20px;
+    }
 }
