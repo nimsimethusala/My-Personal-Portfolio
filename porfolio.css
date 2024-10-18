@@ -790,8 +790,8 @@ footer>section>ul>li>img {
     }
 
     .education>section {
-        margin-left: 100px;
-        gap: 50px;
+        margin-left: 150px;
+        gap: 100px;
     }
 
     .education>section>.card {
@@ -834,11 +834,11 @@ footer>section>ul>li>img {
 
     .experience>.skills {
         width: max-content;
-        margin-left: 40px;
+        margin-left: 80px;
     }
 
     .experience>.skills>div {
-        margin-left: 65px;
+        margin-left: 80px;
     }
 
     .experience>.skills>div>img {
