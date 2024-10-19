@@ -74,7 +74,21 @@ main>section>div>button {
 }
 
 @media all and (max-width: 768px) and (min-width: 425px){
+    main>section {
+        width: 600px;
+        margin-left: 10px;
+    }
 
+    main>section>div {
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    main>section>.card02 {
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 375px){
