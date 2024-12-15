@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java, html, css, js, go, react, angular">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/normalize.css">
+    <title>Case2</title>
+
+    <style>
+        body {
+            background: indigo;
+        }
+
+        div {
+            width: 15vw;
+            aspect-ratio: 1/1;
+            background: gray;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        div>h1 {
+            width: max-content;
+            height: max-content;
+            position: fixed;
+            color: white;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        div::before {
+            content: "";
+            border: 10px solid white;
+            border-radius: 100%;
+            border-top-color: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        div:hover::before {
+            transform: rotate(360deg);
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>RWAD</h1>
+</div>
+</body>
+</html>

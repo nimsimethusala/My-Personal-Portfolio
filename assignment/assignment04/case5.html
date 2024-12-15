@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java, html, css, js, go, react, angular">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/normalize.css">
+    <title>Case-05</title>
+
+    <style>
+        main {
+            width: 40vw;
+            height: 50vh;
+            border: 8px solid maroon;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        section {
+            display: flex;
+            width: fit-content;
+            animation: animation-slide 5s infinite alternate;
+        }
+
+        section>div {
+            width: 40vw;
+            height: 50vh;
+        }
+
+        section>.image1 {
+            background: url("assets/images/slide1.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>.image2 {
+            background: url("assets/images/slide2.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>.image3 {
+            background: url("assets/images/slide3.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>.image4 {
+            background: url("assets/images/slide4.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes animation-slide {
+            0%,20% {
+                transform: translateX(0%);
+            }
+
+            25%,45% {
+                transform: translateX(-25%);
+            }
+
+            50%,70% {
+                transform: translateX(-50%);
+            }
+
+            75%,100% {
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div class="image1"></div>
+        <div class="image2"></div>
+        <div class="image3"></div>
+        <div class="image4"></div>
+    </section>
+</main>
+</body>
+</html>

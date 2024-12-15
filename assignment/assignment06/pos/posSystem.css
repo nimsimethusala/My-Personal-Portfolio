@@ -1,0 +1,86 @@
+body {
+    background: white;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/images/Free Photo _ Japandi living room interior design.jpg");
+    background-size: cover;
+}
+
+.hero-section>.hero-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section>.hero-content>section {
+    margin-top: 100px;
+}
+
+.hero-section>.hero-content>section>p {
+    font-size: 1.3rem;
+}
+
+.hero-section>.hero-content>section>.name>h1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background: -webkit-linear-gradient(#f77a1b, #b35209, #612c04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 7rem;
+    margin: 0;
+}
+
+.main>.main-table {
+    margin-top: 80px;
+}
+
+.order>.cart-table {
+    margin-top: 80px;
+}
+
+#netTotal {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 1440px) and (min-width: 1024px){
+    html {
+        font-size: 100%;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+    html {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 425px){
+    html {
+        font-size: 60%;
+    }
+}
+
+@media all and (max-width: 425px) and (min-width: 375px){
+    html {
+        font-size: 30%;
+    }
+}
+
+@media all and (max-width: 375px) and (min-width: 325px){
+    html {
+        font-size: 30%;
+    }
+}
+
+@media all and (max-width: 325px) {
+    html {
+        font-size: 30%;
+    }
+}

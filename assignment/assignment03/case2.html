@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java, html, css, js, go, react, angular">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement02</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        header {
+            background: aquamarine;
+            height: 100px;
+            position: relative;
+        }
+
+        header>section>div>ul {
+            list-style: none;
+        }
+
+        header>section:nth-child(2){
+            height: fit-content;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            margin: auto;
+        }
+
+        header>section:nth-child(2)>div>ul>li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        footer {
+            background: gray;
+        }
+
+        footer>div {
+            color: white;
+            text-align: center;
+            padding: 20px 0px;
+        }
+
+        main {
+            position: relative;
+            margin: 0;
+        }
+
+        aside {
+            width: 300px;
+            background: purple;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+        }
+
+        main>aside>nav>ul {
+            color: white;
+            list-style: none;
+            margin: 0;
+        }
+
+        main>aside>nav>ul>li {
+            margin-top: 15px;
+        }
+
+        main>section {
+            margin-left: 300px;
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        main>section>p {
+            margin-left: 5px;
+        }
+
+        main>section>p:first-child {
+            margin-top: 0;
+        }
+
+        main>section>p:last-child {
+            margin-bottom: 0;
+        }
+
+        main>section>section {
+            position: relative;
+            height: 300px;
+        }
+
+        main>section>section>div {
+            border: 2px solid green;
+            background: url("assets/monkey.gif");
+            width: calc(100%/3);
+            height: 300px;
+            position: absolute;
+        }
+
+        main>section>section>div:nth-child(2) {
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        main>section>section>div:last-child {
+            right: 5px;
+        }
+
+        main>section>section>div:first-child {
+            left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+<!-- ===========Header Section=========== -->
+<header>
+    <!-- ===========Image Section=========== -->
+    <section>
+        <img src="assets/Untitled_design-45A3f2bAN-transformed-removebg-preview.png" width="200" alt="IJSE" title="IJSE">
+    </section>
+
+    <!-- ===========Navigation Section=========== -->
+    <section>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>About us</li>
+            </ul>
+        </div>
+    </section>
+</header>
+
+<!-- ===========Main Section=========== -->
+<main>
+    <!-- ===========Sidebar Section=========== -->
+    <aside>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- ===========Content Section=========== -->
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque excepturi facilis nobis! Asperiores ducimus eius enim illo necessitatibus nobis possimus praesentium provident quia voluptatem? Cupiditate explicabo libero perferendis.</p>
+    </section>
+</main>
+
+<!-- ===========Footer Section=========== -->
+<footer>
+    <div>Developed by IJSE</div>
+</footer>
+</body>
+</html>

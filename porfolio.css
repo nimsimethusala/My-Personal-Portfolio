@@ -3,14 +3,9 @@
     padding: 0;
 }
 
-html {
-    /*width: 100vw !important;*/
-}
-
 body {
     background: #06011d;
     overflow-x: hidden;
-    /*width: 100vw !important;*/
 }
 
 header {
@@ -66,6 +61,20 @@ header > nav > ul > li > a {
     justify-content: center;
 }
 
+.hero> .hero-container> div> .cvButton {
+    background-color: #ff00ad;
+    border: none;
+    box-shadow: 0 0 5px #ff00ad, 0 0 25px #ff00ad;
+}
+
+.hero> .hero-container> div> .cvButton:hover {
+    box-shadow: 0 0 5px #ff00ad,
+                0 0 25px #ff00ad,
+                0 0 50px #ff00ad,
+                0 0 100px #ff00ad,
+                0 0 200px #ff00ad;
+}
+
 .hero > .hero-container > div:nth-child(1) > .myName {
     margin-top: 60px;
     margin-left: 70px;
@@ -80,6 +89,8 @@ header > nav > ul > li > a {
     font-size: 100px;
     font-style: normal;
     text-align: left;
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
 .hero > .hero-container > div:nth-child(1) > h2 {
@@ -154,10 +165,10 @@ header > nav > ul > li > a {
 
 .education > section {
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 150px;
+    gap: 10px;
 }
 
 .education > section > .card {
@@ -200,7 +211,7 @@ header > nav > ul > li > a {
 .experience > .experience-section1 {
     width: max-content;
     margin-top: 100px;
-    margin-left: 480px;
+    margin-left: 450px;
 }
 
 .experience > .experience-section1 > ul > li {
@@ -234,11 +245,15 @@ header > nav > ul > li > a {
 
 .experience > .experience-section1 > ul > li > .experience-content > h3 {
     color: #a42399;
+    /*color: white;*/
+    font-weight: 900;
+    font-size: 1.75rem;
     margin-top: 30px;
 }
 
 .experience > .experience-section1 > ul > li > .experience-content > p {
-    color: #8d169f;
+    color: #ffffff;
+    font-size: 1.25rem;
 }
 
 .experience > .skills {
@@ -282,7 +297,7 @@ header > nav > ul > li > a {
 .project > section {
     width: max-content;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -341,9 +356,11 @@ header > nav > ul > li > a {
 
 .assignment > section {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 20px;
     display: grid;
-    gap: 70px;
+    /*gap: 20px;*/
+    column-gap: 0;
+    row-gap: 80px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
@@ -422,18 +439,29 @@ header > nav > ul > li > a {
 .contact-section > form > .name-section {
     width: fit-content;
     height: fit-content;
-    /*border: 2px solid red;*/
     display: flex;
     gap: 100px;
 }
 
 label {
-    color: #a42399;
+    color: #fbd6fd;
 }
 
 .contact-section > form > .name-section > .name {
     width: fit-content;
     height: fit-content;
+}
+
+.contact-section > form > .name-section > .name> .contactLabel {
+    font-size: 1.50rem;
+}
+
+.contact-section > form > .email> .contactLabel {
+    font-size: 1.50rem;
+}
+
+.contact-section > form > .message> .contactLabel {
+    font-size: 1.50rem;
 }
 
 .contact-section > form > .email {
@@ -444,14 +472,25 @@ label {
     margin-top: 50px
 }
 
+.contact-section > form > .name-section > .name> input {
+    margin-top: 25px;
+    font-size: 1.25rem;
+    width: 305px;
+    height: 30px;
+    background-color: #06011d;
+}
+
 .contact-section > form > .email > input {
-    margin-top: 15px;
+    margin-top: 25px;
+    font-size: 1.25rem;
     width: 710px;
     height: 30px;
+    background-color: #06011d;
 }
 
 .contact-section > form > .message > textarea {
     margin-top: 15px;
+    font-size: 1.25rem;
     width: 710px;
     height: 130px;
 }
@@ -465,9 +504,20 @@ input, textarea {
 
 .contact-section > form > button {
     width: 150px;
-    height: 30px;
+    height: 50px;
     margin-top: 50px;
-    border-radius: 50px;
+    border-radius: 25px;
+    font-size: 1.55rem;
+    font-weight: bold;
+    background-color: #fbd6fd;
+    border: none;
+    box-shadow: 0 0 5px #fbd6fd, 0 0 25px #fbd6fd;
+}
+
+.contact-section > form > button:hover {
+    box-shadow: 0 0 5px #fbd6fd,
+    0 0 25px #fbd6fd,
+    0 0 50px #ff00ad;
 }
 
 .about {
@@ -484,7 +534,10 @@ input, textarea {
     width: 350px;
     height: 400px;
     margin-left: 200px;
-    border: 6px solid #ff00ad;
+    /*border: 6px solid #ff00ad;*/
+    border: none;
+    background-color: #fbd6fd;
+    box-shadow: 0 0 5px #fbd6fd, 0 0 25px #fbd6fd, 0 0 50px #fbd6fd;
 }
 
 .about-image > img {
@@ -664,7 +717,7 @@ footer > section > ul > li > img {
     }
 
     .contact-section {
-        margin-left: 250px;
+        margin-left: 300px;
     }
 
     label {
@@ -699,7 +752,7 @@ footer > section > ul > li > img {
     }
 
     .about > section {
-        margin-left: 50px;
+        margin-left: 130px;
     }
 
     .about-image {
@@ -2109,8 +2162,4 @@ footer > section > ul > li > img {
     footer > section > ul > li > div > h3 {
         font-size: 30px;
     }
-}
-
-body {
-    width: 100vw;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java, html, css, js, go, react, angular">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Case-03</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        :root {
+            /*Variable defining*/
+            --width: 16vw;
+            --height: 15vh
+        }
+
+        body>div {
+            width: var(--width);
+            height: var(--height);
+            background: darkorange;
+            border-radius: 25px;
+            animation: myAnimation 5s;
+            animation-name: my-animation;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-play-state: running;
+        }
+
+        @keyframes my-animation {
+            0% {
+                margin-left: 0;
+                margin-top: 0;
+                background: maroon;
+            }
+
+            25% {
+                margin-left: calc(100vw - var(--width));
+                margin-top: 0;
+                background: red;
+                transform: rotate(180deg);
+            }
+
+            50% {
+                margin-left: calc(100vw - var(--width));
+                margin-top: calc(100vh - var(--height));
+                background: deeppink;
+                transform: rotate(0deg);
+            }
+
+            75% {
+                margin-left: 0;
+                margin-top: calc(100vh - var(--height));
+                background: blueviolet;
+                transform: rotate(-180deg);
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
