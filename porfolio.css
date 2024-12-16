@@ -61,6 +61,13 @@ header > nav > ul > li > a {
     justify-content: center;
 }
 
+.hero> .hero-container> div> .cvButton> a {
+    text-decoration: none;
+    color: #06011d;
+    font-size: 1.75rem;
+    padding: 10px 25px;
+}
+
 .hero> .hero-container> div> .cvButton {
     background-color: #ff00ad;
     border: none;
@@ -165,7 +172,7 @@ header > nav > ul > li > a {
 
 .education > section {
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 160px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -260,7 +267,7 @@ header > nav > ul > li > a {
     width: 1200px;
     height: 70px;
     margin-top: 150px;
-    margin-left: 180px;
+    margin-left: 120px;
     display: flex;
 }
 

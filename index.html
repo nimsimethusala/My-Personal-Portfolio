@@ -60,7 +60,9 @@
                 <h1>Methusala</h1>
             </div>
             <h2>University Student at IJSE</h2>
-            <button type="button" class="cvButton">Download CV</button>
+<!--            <button type="button" class="cvButton">Download CV</button>-->
+            <button type="button" class="cvButton"><a href="assets/Curriculum%20vitae.pdf" download="Nimsi CV">Download CV</a></button>
+<!--            <a href="assets/Curriculum%20vitae.pdf" download="Nimsi CV" class="cvButton">Download CV</a>-->
             <div class="hero-icon">
                 <ul>
                     <li><i class="fa-brands fa-github"></i></li>
@@ -266,7 +268,8 @@
 <main class="contact">
     <h1 id="contact" class="topics">Contact</h1>
     <section class="contact-section">
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e23873fd-dce2-47ed-b21f-704070e8f9de">
             <div class="name-section">
                 <div class="name">
                     <label class="contactLabel">First Name</label><br>
